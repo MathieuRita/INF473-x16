@@ -1,3 +1,10 @@
+###### PRELIMINAIRE ########
+
+# Pb de compilation a cause des character accent and co. Il faut changer les commentaires explicatifs.
+# Une fois les donnees dispo, il faut modifier l'algo en y metttant toutes les tailles
+
+
+
 ######## IMPORT ########
 
 from __future__ import absolute_import
@@ -123,6 +130,9 @@ def prediction() :
         L+=[val["classes"]]
     return L
 
+######## MIS EN ROUTE ############
 
+training()
+prediction()
 
 

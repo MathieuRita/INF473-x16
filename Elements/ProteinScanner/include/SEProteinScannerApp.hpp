@@ -28,6 +28,7 @@ public :
 	SEProteinScannerAppGUI*											getGUI() const;															///< Returns a pointer to the GUI of the app
 
 	//@}
+    void                                                            gridsize(SBIAPosition3& minmax) const;
 
 };
 

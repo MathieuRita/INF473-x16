@@ -1,0 +1,1034 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="SAMSON-Elements-debug" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\NANO-D\;CMake Files\..\..\..\NANO-D\SDK\;CMake Files\..\..\..\NANO-D\SDK\0.7.0\;CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\;CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\;CMake Files\..\..\..\Qt\;CMake Files\..\..\..\Qt\5.9.3\;CMake Files\..\..\..\Qt\5.9.3\gcc_64\;CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\;CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\;CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Core\;CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\;CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5LinguistTools\;CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Multimedia\;CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Network\;CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5MultimediaWidgets\;CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Widgets\;CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5OpenGL\;CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5PrintSupport\;CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Sql\;CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Xml\;CMake Files\ProteinScanner\;CMake Files\Colorizer\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install">
+         <Option working_dir="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 install" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/local">
+         <Option working_dir="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 install/local" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="install/strip">
+         <Option working_dir="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 install/strip" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="list_install_components">
+         <Option working_dir="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 list_install_components" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SEProteinScanner">
+         <Option output="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Debug/5E1C027D-0489-DC96-C0D6-F84CF9BB6C42.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/ProteinScanner" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DSB_WINDOWS=0" />
+            <Add option="-DSB_LINUX=1" />
+            <Add option="-DSB_MACOS=0" />
+            <Add option="-DKEY_NANOD_COMPANY=&quot;NANO-D&quot;" />
+            <Add option="-DKEY_SAMSON_SOFTWARE=&quot;SAMSON&quot;" />
+            <Add option="-DSAMSON_USER_ID=&quot;D85DB591-93BC-4B95-AEB2-6A9279E7047F&quot;" />
+            <Add option="-DSB_SDK_MAJOR_VERSION_NUMBER=0" />
+            <Add option="-DSB_SDK_MINOR_VERSION_NUMBER=7" />
+            <Add option="-DSB_SDK_PATCH_VERSION_NUMBER=0" />
+            <Add option="-DSB_SDK_VERSION_NUMBER_STRING=&quot;0.7.0&quot;" />
+            <Add option="-DSB_SDK_VERSION_NUMBER=SBVersionNumber(0, 7, 0)" />
+            <Add option="-DELEMENT_NAME=&quot;SEProteinScanner&quot;" />
+            <Add option="-DSB_ELEMENT_UUID=&quot;5E1C027D-0489-DC96-C0D6-F84CF9BB6C42&quot;" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_MULTIMEDIA_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_MULTIMEDIAWIDGETS_LIB" />
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Class" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Container" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Functor" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Graph" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Heap" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Kernel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Log" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Meta" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Reference" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Serializer" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Signal" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Time" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Undo" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/App" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Color" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Controller" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/DataGraph" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Document" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Quantity" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/Core" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/Data" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/GUI" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Action" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/App" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/DataGraph" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Document" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/DynamicalModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Editor" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/File" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Inspector" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/InteractionModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Main" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Menu" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Notification" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Property" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/PropertyModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Render" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Settings" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Simulator" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/StateUpdater" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/StructuralModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/ToolBar" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Undo" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/User" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/VisualModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Widget" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Window" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/IO/File" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/DynamicalModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/Element" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/InteractionModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/Model" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/PropertyModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/StructuralModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/VisualModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/NeighborSearch" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/Simulator" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/StateUpdater" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/ProteinScanner" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtMultimedia" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtMultimediaWidgets" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtNetwork" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtOpenGL" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtPrintSupport" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtSql" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtXml" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/local/gcc-7.1.0/include" />
+            <Add directory="/usr/local/gcc-7.1.0/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../include/c++/7.1.0" />
+            <Add directory="/usr/local/gcc-7.1.0/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../include/c++/7.1.0/backward" />
+            <Add directory="/usr/local/gcc-7.1.0/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../include/c++/7.1.0/x86_64-pc-linux-gnu" />
+            <Add directory="/usr/local/gcc-7.1.0/lib/gcc/x86_64-pc-linux-gnu/7.1.0/include" />
+            <Add directory="/usr/local/gcc-7.1.0/lib/gcc/x86_64-pc-linux-gnu/7.1.0/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/ProteinScanner/Makefile&quot;  VERBOSE=1 SEProteinScanner" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/ProteinScanner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/ProteinScanner/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/ProteinScanner/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SEProteinScanner/fast">
+         <Option output="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Debug/5E1C027D-0489-DC96-C0D6-F84CF9BB6C42.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/ProteinScanner" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DSB_WINDOWS=0" />
+            <Add option="-DSB_LINUX=1" />
+            <Add option="-DSB_MACOS=0" />
+            <Add option="-DKEY_NANOD_COMPANY=&quot;NANO-D&quot;" />
+            <Add option="-DKEY_SAMSON_SOFTWARE=&quot;SAMSON&quot;" />
+            <Add option="-DSAMSON_USER_ID=&quot;D85DB591-93BC-4B95-AEB2-6A9279E7047F&quot;" />
+            <Add option="-DSB_SDK_MAJOR_VERSION_NUMBER=0" />
+            <Add option="-DSB_SDK_MINOR_VERSION_NUMBER=7" />
+            <Add option="-DSB_SDK_PATCH_VERSION_NUMBER=0" />
+            <Add option="-DSB_SDK_VERSION_NUMBER_STRING=&quot;0.7.0&quot;" />
+            <Add option="-DSB_SDK_VERSION_NUMBER=SBVersionNumber(0, 7, 0)" />
+            <Add option="-DELEMENT_NAME=&quot;SEProteinScanner&quot;" />
+            <Add option="-DSB_ELEMENT_UUID=&quot;5E1C027D-0489-DC96-C0D6-F84CF9BB6C42&quot;" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_MULTIMEDIA_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_MULTIMEDIAWIDGETS_LIB" />
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Class" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Container" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Functor" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Graph" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Heap" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Kernel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Log" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Meta" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Reference" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Serializer" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Signal" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Time" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Undo" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/App" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Color" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Controller" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/DataGraph" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Document" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Quantity" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/Core" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/Data" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/GUI" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Action" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/App" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/DataGraph" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Document" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/DynamicalModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Editor" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/File" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Inspector" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/InteractionModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Main" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Menu" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Notification" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Property" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/PropertyModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Render" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Settings" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Simulator" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/StateUpdater" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/StructuralModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/ToolBar" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Undo" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/User" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/VisualModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Widget" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Window" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/IO/File" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/DynamicalModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/Element" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/InteractionModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/Model" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/PropertyModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/StructuralModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/VisualModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/NeighborSearch" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/Simulator" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/StateUpdater" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/ProteinScanner" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtMultimedia" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtMultimediaWidgets" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtNetwork" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtOpenGL" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtPrintSupport" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtSql" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtXml" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/local/gcc-7.1.0/include" />
+            <Add directory="/usr/local/gcc-7.1.0/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../include/c++/7.1.0" />
+            <Add directory="/usr/local/gcc-7.1.0/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../include/c++/7.1.0/backward" />
+            <Add directory="/usr/local/gcc-7.1.0/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../include/c++/7.1.0/x86_64-pc-linux-gnu" />
+            <Add directory="/usr/local/gcc-7.1.0/lib/gcc/x86_64-pc-linux-gnu/7.1.0/include" />
+            <Add directory="/usr/local/gcc-7.1.0/lib/gcc/x86_64-pc-linux-gnu/7.1.0/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/ProteinScanner/Makefile&quot;  VERBOSE=1 SEProteinScanner/fast" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/ProteinScanner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/ProteinScanner/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/ProteinScanner/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SEProteinScanner_automoc">
+         <Option working_dir="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/ProteinScanner" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/ProteinScanner/Makefile&quot;  VERBOSE=1 SEProteinScanner_automoc" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/ProteinScanner/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/ProteinScanner/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/ProteinScanner/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SEColorizer">
+         <Option output="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Debug/E770E4DE-F2C4-A42B-8BE1-3EBEE8BC9233.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Colorizer" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DSB_WINDOWS=0" />
+            <Add option="-DSB_LINUX=1" />
+            <Add option="-DSB_MACOS=0" />
+            <Add option="-DKEY_NANOD_COMPANY=&quot;NANO-D&quot;" />
+            <Add option="-DKEY_SAMSON_SOFTWARE=&quot;SAMSON&quot;" />
+            <Add option="-DSAMSON_USER_ID=&quot;D85DB591-93BC-4B95-AEB2-6A9279E7047F&quot;" />
+            <Add option="-DSB_SDK_MAJOR_VERSION_NUMBER=0" />
+            <Add option="-DSB_SDK_MINOR_VERSION_NUMBER=7" />
+            <Add option="-DSB_SDK_PATCH_VERSION_NUMBER=0" />
+            <Add option="-DSB_SDK_VERSION_NUMBER_STRING=&quot;0.7.0&quot;" />
+            <Add option="-DSB_SDK_VERSION_NUMBER=SBVersionNumber(0, 7, 0)" />
+            <Add option="-DELEMENT_NAME=&quot;SEColorizer&quot;" />
+            <Add option="-DSB_ELEMENT_UUID=&quot;E770E4DE-F2C4-A42B-8BE1-3EBEE8BC9233&quot;" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_MULTIMEDIA_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_MULTIMEDIAWIDGETS_LIB" />
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Class" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Container" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Functor" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Graph" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Heap" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Kernel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Log" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Meta" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Reference" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Serializer" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Signal" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Time" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Undo" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/App" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Color" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Controller" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/DataGraph" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Document" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Quantity" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/Core" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/Data" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/GUI" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Action" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/App" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/DataGraph" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Document" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/DynamicalModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Editor" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/File" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Inspector" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/InteractionModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Main" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Menu" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Notification" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Property" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/PropertyModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Render" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Settings" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Simulator" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/StateUpdater" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/StructuralModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/ToolBar" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Undo" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/User" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/VisualModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Widget" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Window" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/IO/File" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/DynamicalModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/Element" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/InteractionModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/Model" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/PropertyModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/StructuralModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/VisualModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/NeighborSearch" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/Simulator" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/StateUpdater" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/Colorizer/include" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Colorizer" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtMultimedia" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtMultimediaWidgets" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtNetwork" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtOpenGL" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtPrintSupport" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtSql" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtXml" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/local/gcc-7.1.0/include" />
+            <Add directory="/usr/local/gcc-7.1.0/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../include/c++/7.1.0" />
+            <Add directory="/usr/local/gcc-7.1.0/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../include/c++/7.1.0/backward" />
+            <Add directory="/usr/local/gcc-7.1.0/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../include/c++/7.1.0/x86_64-pc-linux-gnu" />
+            <Add directory="/usr/local/gcc-7.1.0/lib/gcc/x86_64-pc-linux-gnu/7.1.0/include" />
+            <Add directory="/usr/local/gcc-7.1.0/lib/gcc/x86_64-pc-linux-gnu/7.1.0/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Colorizer/Makefile&quot;  VERBOSE=1 SEColorizer" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Colorizer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Colorizer/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Colorizer/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SEColorizer/fast">
+         <Option output="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Debug/E770E4DE-F2C4-A42B-8BE1-3EBEE8BC9233.so" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Colorizer" />
+         <Option object_output="./" />
+         <Option type="3" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add option="-DSB_WINDOWS=0" />
+            <Add option="-DSB_LINUX=1" />
+            <Add option="-DSB_MACOS=0" />
+            <Add option="-DKEY_NANOD_COMPANY=&quot;NANO-D&quot;" />
+            <Add option="-DKEY_SAMSON_SOFTWARE=&quot;SAMSON&quot;" />
+            <Add option="-DSAMSON_USER_ID=&quot;D85DB591-93BC-4B95-AEB2-6A9279E7047F&quot;" />
+            <Add option="-DSB_SDK_MAJOR_VERSION_NUMBER=0" />
+            <Add option="-DSB_SDK_MINOR_VERSION_NUMBER=7" />
+            <Add option="-DSB_SDK_PATCH_VERSION_NUMBER=0" />
+            <Add option="-DSB_SDK_VERSION_NUMBER_STRING=&quot;0.7.0&quot;" />
+            <Add option="-DSB_SDK_VERSION_NUMBER=SBVersionNumber(0, 7, 0)" />
+            <Add option="-DELEMENT_NAME=&quot;SEColorizer&quot;" />
+            <Add option="-DSB_ELEMENT_UUID=&quot;E770E4DE-F2C4-A42B-8BE1-3EBEE8BC9233&quot;" />
+            <Add option="-DQT_CORE_LIB" />
+            <Add option="-DQT_GUI_LIB" />
+            <Add option="-DQT_MULTIMEDIA_LIB" />
+            <Add option="-DQT_NETWORK_LIB" />
+            <Add option="-DQT_MULTIMEDIAWIDGETS_LIB" />
+            <Add option="-DQT_WIDGETS_LIB" />
+            <Add option="-DQT_OPENGL_LIB" />
+            <Add option="-DQT_PRINTSUPPORT_LIB" />
+            <Add option="-DQT_SQL_LIB" />
+            <Add option="-DQT_XML_LIB" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Class" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Container" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Functor" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Graph" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Heap" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Kernel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Log" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Meta" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Reference" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Serializer" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Signal" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Time" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Undo" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/App" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Color" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Controller" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/DataGraph" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Document" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Quantity" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/Core" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/Data" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/GUI" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Action" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/App" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/DataGraph" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Document" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/DynamicalModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Editor" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/File" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Inspector" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/InteractionModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Main" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Menu" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Notification" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Property" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/PropertyModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Render" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Settings" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Simulator" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/StateUpdater" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/StructuralModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/ToolBar" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Undo" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/User" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/VisualModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Widget" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Window" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/IO/File" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/DynamicalModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/Element" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/InteractionModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/Model" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/PropertyModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/StructuralModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/VisualModel" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/NeighborSearch" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/Simulator" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/StateUpdater" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/Colorizer/include" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Colorizer" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/./mkspecs/linux-g++" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtMultimedia" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtMultimediaWidgets" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtNetwork" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtOpenGL" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtPrintSupport" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtSql" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets" />
+            <Add directory="/users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtXml" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/local/gcc-7.1.0/include" />
+            <Add directory="/usr/local/gcc-7.1.0/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../include/c++/7.1.0" />
+            <Add directory="/usr/local/gcc-7.1.0/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../include/c++/7.1.0/backward" />
+            <Add directory="/usr/local/gcc-7.1.0/lib/gcc/x86_64-pc-linux-gnu/7.1.0/../../../../include/c++/7.1.0/x86_64-pc-linux-gnu" />
+            <Add directory="/usr/local/gcc-7.1.0/lib/gcc/x86_64-pc-linux-gnu/7.1.0/include" />
+            <Add directory="/usr/local/gcc-7.1.0/lib/gcc/x86_64-pc-linux-gnu/7.1.0/include-fixed" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Colorizer/Makefile&quot;  VERBOSE=1 SEColorizer/fast" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Colorizer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Colorizer/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Colorizer/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="SEColorizer_automoc">
+         <Option working_dir="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Colorizer" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Colorizer/Makefile&quot;  VERBOSE=1 SEColorizer_automoc" />
+            <CompileFile command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Colorizer/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Colorizer/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/gmake -f &quot;/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Colorizer/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/Colorizer/source/SEColorizerApp.cpp">
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/Colorizer/source/SEColorizerAppGUI.cpp">
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/Colorizer/source/SEColorizerDescriptor.cpp">
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/source/SEProteinScannerApp.cpp">
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/source/SEProteinScannerAppGUI.cpp">
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/source/SEProteinScannerDescriptor.cpp">
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/Colorizer/form/SEColorizerAppGUI.ui">
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/Colorizer/include/SEColorizerApp.hpp">
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/Colorizer/include/SEColorizerAppDescriptor.hpp">
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/Colorizer/include/SEColorizerAppGUI.hpp">
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/form/SEProteinScannerAppGUI.ui">
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include/SEProteinScannerApp.hpp">
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include/SEProteinScannerAppDescriptor.hpp">
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include/SEProteinScannerAppGUI.hpp">
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/SDKConfiguration.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/SBPublicVerboseVar.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/SBPublicDefinitions.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/SDKDeveloperDefinitions.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/SDKFunctions.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/SDKVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/SBVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/FindSAMSONSDK.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBCTime.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGMain.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGRender.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGNotification.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGWidget.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGWindow.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGDocument.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGInspector.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGFile.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGMenu.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGToolBar.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGAction.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGEditor.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGProperty.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGDynamicalModel.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGInteractionModel.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGPropertyModel.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGStateUpdater.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGStructuralModel.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGVisualModel.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGDataGraph.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGSimulator.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGApp.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGSettings.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGUndo.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBGUser.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBCContainer.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBCLog.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBCMeta.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBSSimulator.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBSStateUpdater.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBMPropertyModel.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBMVisualModel.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBMStructuralModel.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBMInteractionModel.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBDApp.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBDController.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBCReference.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBDDataGraph.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBDType.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBDQuantity.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBIFile.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBMDynamicalModel.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBMElement.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBDDocument.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBDColor.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBCFunctor.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBCClass.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBCSerializer.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBCGraph.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBCHeap.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBCSignal.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSAMSON.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBCKernel.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBCUndo.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBMModel.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindSBSNeighborSearch.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindGUI.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindData.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../NANO-D/SDK/0.7.0/cmake/Find/FindCore.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\NANO-D\SDK\0.7.0\cmake\Find\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Core/Qt5CoreConfigExtrasMkspecDir.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Core/Qt5CoreMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Core\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QComposePlatformInputContextPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSEmulatorIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSKmsEglDeviceIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEglFSX11IntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevKeyboardPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevMousePlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTabletPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QEvdevTouchScreenPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGifPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QGtk3ThemePlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICOPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QIbusPlatformInputContextPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QJpegPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QLinuxFbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalEglIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QMinimalIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QOffscreenIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTuioTouchPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QVncIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbEglIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbGlxIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QXcbIntegrationPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QICNSPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTgaPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QTiffPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWbmpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5Gui_QWebpPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Gui/Qt5GuiConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Gui\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5LinguistTools\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5LinguistTools\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5LinguistTools/Qt5LinguistToolsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5LinguistTools\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Multimedia\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Multimedia/Qt5MultimediaConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Multimedia\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_CameraBinServicePlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Multimedia\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QAlsaPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Multimedia\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QGstreamerAudioDecoderServicePlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Multimedia\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QGstreamerCaptureServicePlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Multimedia\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QGstreamerPlayerServicePlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Multimedia\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QM3uPlaylistPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Multimedia\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Multimedia/Qt5Multimedia_QPulseAudioPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Multimedia\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Network/Qt5Network_QConnmanEnginePlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Network/Qt5Network_QGenericEnginePlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Network/Qt5Network_QNetworkManagerEnginePlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Network/Qt5NetworkConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Network\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5MultimediaWidgets\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5MultimediaWidgets/Qt5MultimediaWidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5MultimediaWidgets\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigExtras.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsMacros.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Widgets/Qt5WidgetsConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Widgets\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5OpenGL/Qt5OpenGLConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5OpenGL\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5PrintSupport/Qt5PrintSupportConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5PrintSupport/Qt5PrintSupport_QCupsPrinterSupportPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5PrintSupport\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Sql/Qt5SqlConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Sql\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Sql/Qt5SqlConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Sql\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Sql/Qt5Sql_QMYSQLDriverPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Sql\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Sql/Qt5Sql_QPSQLDriverPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Sql\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Sql/Qt5Sql_QSQLiteDriverPlugin.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Sql\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Xml/Qt5XmlConfigVersion.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Xml\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/../../../Qt/5.9.3/gcc_64/lib/cmake/Qt5Xml/Qt5XmlConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\Qt\5.9.3\gcc_64\lib\cmake\Qt5Xml\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\ProteinScanner\" />
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/Colorizer/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\Colorizer\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

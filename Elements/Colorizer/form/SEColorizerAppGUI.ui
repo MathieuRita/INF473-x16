@@ -21,14 +21,34 @@
   </property>
   <layout class="QVBoxLayout" name="verticalLayout">
    <item>
-    <widget class="QLabel" name="label">
+    <widget class="QPushButton" name="pushButton">
      <property name="text">
-      <string>SAMSON Element generator pro tip: modify me</string>
+      <string>Colorize</string>
      </property>
     </widget>
    </item>
   </layout>
  </widget>
  <resources/>
- <connections/>
+ <connections>
+  <connection>
+   <sender>pushButton</sender>
+   <signal>clicked()</signal>
+   <receiver>SEColorizerAppGUIClass</receiver>
+   <slot>onColorizedClicked()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>149</x>
+     <y>49</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>149</x>
+     <y>49</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>onColorizedClicked()</slot>
+ </slots>
 </ui>

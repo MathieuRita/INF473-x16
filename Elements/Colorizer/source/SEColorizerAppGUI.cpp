@@ -74,3 +74,7 @@ QString SEColorizerAppGUI::getCitation() const {
 		"[1] <a href=\"https://www.samson-connect.net\">https://www.samson-connect.net</a><br/>";
 	
 }
+
+void SEColorizerAppGUI::onColorizedClicked(){
+    getApp() -> colorize();
+}

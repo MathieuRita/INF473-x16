@@ -54,6 +54,9 @@ public slots:
 
 	// SAMSON Element generator pro tip: add slots here to interact with your app
 
+private slots:
+    void onColorizedClicked();
+
 private:
 
 	Ui::SEColorizerAppGUIClass									ui;

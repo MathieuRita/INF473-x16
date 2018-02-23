@@ -10,7 +10,7 @@
 
 class SEColorizerApp : public SBDApp {
 
-	SB_CLASS
+    SB_CLASS
 
 public :
 
@@ -28,7 +28,7 @@ public :
 	SEColorizerAppGUI*											getGUI() const;															///< Returns a pointer to the GUI of the app
 
 	//@}
-
+    void                                                        colorize();
 };
 
 

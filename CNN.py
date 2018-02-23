@@ -95,7 +95,7 @@ predict_data = ??? #données à prédire
 def training() :
 
     #Création de l'estimateur à partir de notre fonction
-    CNN_classifier = tf.estimator.Estimator(model_fn=cnn_model_fn)
+    CNN_classifier = tf.estimator.Estimator(model_fn=cnn_model_fn, model_dir="/tmp/mnist_convnet_model")
 
     #Suivi de la progression de l'algo
     tensors_to_log = {"probabilities": "softmax_tensor"}
@@ -115,8 +115,14 @@ def training() :
 ######## FAIRE LA PREDICTION ########
 
 def prediction() :
-    predict_input_fn = tf.estimator.inputs.numpy_input_fn(x={"x": predict_data},num_epochs=1,shuffle=False)
-    print(CNN_classifier.predict(input_fn=features, hooks=[logging_hook]))
+    features = tf.estimator.inputs.numpy_input_fn(x={"x": predict_data},num_epochs=1,shuffle=False)
+    CNN_classifier = tf.estimator.Estimator(model_fn=cnn_model_fn, model_dir="/tmp/mnist_convnet_model")
+    pred=CNN_classifier.predict(input_fn=features)
+    L=[]
+    for val in pred :
+        L+=[val["classes"]]
+    return L
+
 
 
 

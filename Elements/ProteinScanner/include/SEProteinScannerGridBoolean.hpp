@@ -6,22 +6,26 @@
 
 
 
-class SEProteinScannerGridBoolean: public SBDApp {
+class SEProteinScannerGridBoolean {
 
     SB_CLASS
 
 public :
 
         SEProteinScannerGridBoolean(SBIAPosition3 size, SBQuantity::length voxsize , int winsize);
-        virtual ~SEProteinScannerGrid();
+        virtual ~SEProteinScannerGridBoolean();
 
-        Boolean* grid;
+        bool* grid;
         SBPosition3 origin;
         SBQuantity::length voxsize;
+        int nx;
+        int ny;
+        int nz;
+
 
         SBPosition3                                                         getOrigin() const;
-        void                                                           setBoolean(int x, int y, int z, Boolean b);
-        Boolean                                                        getBoolean(int x, int y, int z);
+        void                                                           setBoolean(int x, int y, int z, bool b);
+        bool                                                        getBoolean(int x, int y, int z);
 
 
     };

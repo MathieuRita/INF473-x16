@@ -4,6 +4,8 @@
 #include "vector"
 #include "SBResidue.hpp"
 #include "SEProteinScannerGrid.hpp"
+#include "SBSideChain.hpp"
+#include "SEProteinScannerGridBoolean.hpp"
 
 SEProteinScannerApp::SEProteinScannerApp() {
 
@@ -21,7 +23,7 @@ SEProteinScannerApp::~SEProteinScannerApp() {
 
 SEProteinScannerAppGUI* SEProteinScannerApp::getGUI() const { return static_cast<SEProteinScannerAppGUI*>(SBDApp::getGUI()); }
 
-void  SEProteinScannerApp::gridsize(SBIAPosition3& minmax) {
+void  SEProteinScannerApp::gridsize(SBIAPosition3& minmax) const {
 
     SBNodeIndexer nodeIndexer;
     SAMSON::getActiveDocument()->getNodes(nodeIndexer, SBNode::IsType(SBNode::Atom));
@@ -42,64 +44,83 @@ void  SEProteinScannerApp::gridsize(SBIAPosition3& minmax) {
 
 }
 
-SEProteinScannerGrid* SEProteinScannerApp::gridfill(SBIAPosition3& minmax,SBQuantity voxsize){
-    int nbrvoxx = (int)((minmax.i[0].i[1]-minmax.i[0].i[0])/voxsize).getValue();
-    int nbrvoxy = (int)((minmax.i[1].i[1]-minmax.i[1].i[0])/voxsize).getValue();
-    int nbrvoxz = (int)((minmax.i[2].i[1]-minmax.i[2].i[0])/voxsize).getValue();
-    SBQuantity orx = minmax.i[0].i[0];
-    SBQuantity ory = minmax.i[1].i[0];
-    SBQuantity orz = minmax.i[2].i[0];
 
+SEProteinScannerGrid* SEProteinScannerApp::gridfill(SBIAPosition3& minmax,SBQuantity::length voxsize, int winsize) const{
 
-
-    SEProteinScannerGrid* grid= new SEProteinScannerGrid(minmax, voxsize);
-
+    SEProteinScannerGrid* grid= new SEProteinScannerGrid(minmax, voxsize, winsize);
 
     SBNodeIndexer resIndexer;
-    SAMSON::getActiveDocument()->getNodes(resIndexer, SBNode::IsType(SBNode::SideChain));
-    SB_FOR(SBNode* node, nodeIndexer) {
+    SAMSON::getActiveDocument()->getNodes(resIndexer, SBNode::IsType(SBNode::Residue));
+
+    SB_FOR(SBNode* node, resIndexer) {
+
+        SBResidue* resi = static_cast<SBResidue*>(node);
+
         SBNodeIndexer atIndexer;
-        node->getNodes(atIndexer, SBNode::IsType(SBNode::Atom));
-        SBQuantity::length xmid=0;
-        SBQuantity::length ymid=0;
-        SBQuantity::length zmid=0;
+        if (resi->getSideChain()) resi->getSideChain()->getNodes(atIndexer, SBNode::IsType(SBNode::Atom));
+
+        SBQuantity::length xmid(0);
+        SBQuantity::length ymid(0);
+        SBQuantity::length zmid(0);
         int count=0;
 
-        SB_FOR(SBNode* atom, atIndexer) {
+        SB_FOR(SBNode* nodde, atIndexer) {
             count++;
-            SBAtom* atom = static_cast<SBAtom*>(atom);
+            SBAtom* atom = static_cast<SBAtom*>(nodde);
             SBPosition3 position = atom->getPosition();
             xmid += position.v[0];
             ymid += position.v[1];
             zmid += position.v[2];
         }
-        xmid=(int)((xmid/count-orx)/voxsize).getValue();
-        ymid=(int)((ymid/count-ory)/voxsize).getValue();
-        zmid=(int)((zmid/count-orz)/voxsize).getValue();
-        SBResidue::ResidueType res = node->getResidueType();
+        SBPosition3 origin = grid->getOrigin();
 
-        grid.fill(xmid,ymid,zmid,res);
+        int ixmid=(int)((xmid/count-origin[0])/voxsize).getValue();
+        int iymid=(int)((ymid/count-origin[1])/voxsize).getValue();
+        int izmid=(int)((zmid/count-origin[2])/voxsize).getValue();
 
+        SBResidue::ResidueType res = resi->getResidueType();
 
+        grid->setRes(ixmid,iymid,izmid,res);
 
     }
-
-
-
-
-
-
 
 }
 
 
-bool SEProteinScannerApp::Scan(SEProteinScannerGrid* grid,int x,int y, int z,int winsize){
+bool SEProteinScannerApp::Scan(SBQuantity::length x,SBQuantity::length y, SBQuantity::length z,SBQuantity::length distcont,SBNodeIndexer ligandAtomIndexer) const{
+    SBPosition3 centre;
+    centre[0]=x;
+    centre[1]=y;
+    centre[2]=z;
+    SB_FOR(SBNode* lig, ligandAtomIndexer) {
+        SBAtom* atomlig = static_cast<SBAtom*>(lig);
+        SBPosition3 poslig = atomlig->getPosition();
+        SBQuantity::length dif = (poslig-centre).norm();
+        if (dif<=distcont){
+            return true;
+        }
+    }
+    return false;
 
+}
 
+SEProteinScannerGridBoolean*  SEProteinScannerApp::GridBoolFill(SBNodeIndexer ligandAtomIndexer,SBQuantity::length distcont,SBIAPosition3& minmax,SBQuantity::length voxsize,int winsize) const{
+    SEProteinScannerGridBoolean* gridb= new SEProteinScannerGridBoolean(minmax, voxsize, winsize);
+    int nx = (int)((minmax.i[0].i[1]+2*winsize*voxsize-minmax.i[0].i[0])/voxsize).getValue();
+    int ny = (int)((minmax.i[1].i[1]+2*winsize*voxsize-minmax.i[1].i[0])/voxsize).getValue();
+    int nz = (int)((minmax.i[2].i[1]+2*winsize*voxsize-minmax.i[2].i[0])/voxsize).getValue();
+    SBPosition3 origin = gridb->getOrigin();
+    for (int ix= winsize; ix<nx-winsize;ix++){
+        for (int iy= winsize; iy<ny-winsize;iy++){
+            for (int iz= winsize; iz<nz-winsize;iz++){
+                if(SEProteinScannerApp::Scan(origin[0]+ix*voxsize,origin[1]+iy*voxsize,origin[2]+iz*voxsize,distcont,ligandAtomIndexer)){
+                    gridb->setBoolean(ix,iy,iz,true);
+                }
+            }
+        }
 
-
-
-
+    }
+    return gridb;
 
 }
 

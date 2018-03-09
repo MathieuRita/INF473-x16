@@ -6,7 +6,7 @@
 
 
 
-class SEProteinScannerGrid: public SBDApp {
+class SEProteinScannerGrid {
 
     SB_CLASS
 
@@ -18,8 +18,11 @@ public :
         SBResidue::ResidueType* grid;
         SBPosition3 origin;
         SBQuantity::length voxsize;
+        int nx;
+        int ny;
+        int nz;
 
-        SBPosition3                                                         getOrigin() const;
+        SBPosition3                                                         getOrigin() ;
         void                                                           setRes(int x, int y, int z, SBResidue::ResidueType res);
         SBResidue::ResidueType                                          getRes(int x, int y, int z);
 

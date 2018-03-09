@@ -1,4 +1,4 @@
-#include "SAMSON"
+
 #include "vector"
 #include "SEProteinScannerGridBoolean.hpp"
 #include "SBResidue.hpp"
@@ -17,7 +17,11 @@ SEProteinScannerGridBoolean::SEProteinScannerGridBoolean(SBIAPosition3 minmax, S
         int ny = (int)((minmax.i[1].i[1]+2*winsize*voxsize-minmax.i[1].i[0])/voxsize).getValue();
         int nz = (int)((minmax.i[2].i[1]+2*winsize*voxsize-minmax.i[2].i[0])/voxsize).getValue();
 
-        Boolean* grid = new Boolean[nx*ny*nz];
+        this->nx=nx;
+        this->ny=ny;
+        this->nz=nz;
+
+        bool* grid = new bool[nx*ny*nz];
 
         for(int i=0;i<nx*ny*nz;i++) {
                     grid[i]=0;
@@ -32,7 +36,7 @@ SEProteinScannerGridBoolean::SEProteinScannerGridBoolean(SBIAPosition3 minmax, S
 
 }
 
-void SEProteinScannerGridBoolean::setBoolean(int x, int y, int z, Boolean b) {
+void SEProteinScannerGridBoolean::setBoolean(int x, int y, int z, bool b) {
     int index=x*nx+y*ny+z;
     grid[index]=b;
 
@@ -42,6 +46,6 @@ SBPosition3 SEProteinScannerGridBoolean::getOrigin() const {
     return origin;
 }
 
-Boolean SEProteinScannerGridBoolean::getBoolean(int x, int y , int z) {
+bool SEProteinScannerGridBoolean::getBoolean(int x, int y , int z) {
     return grid[x*nx+y*ny+z];
 }

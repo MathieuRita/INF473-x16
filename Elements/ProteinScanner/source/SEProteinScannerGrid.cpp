@@ -2,6 +2,7 @@
 #include "vector"
 #include "SBResidue.hpp"
 #include "SBIAVector3.hpp"
+#include "SEProteinScannerGrid.hpp"
 
 
 
@@ -15,7 +16,12 @@ SEProteinScannerGrid::SEProteinScannerGrid(SBIAPosition3 minmax, SBQuantity::len
         int ny = (int)((minmax.i[1].i[1]+2*winsize*voxsize-minmax.i[1].i[0])/voxsize).getValue();
         int nz = (int)((minmax.i[2].i[1]+2*winsize*voxsize-minmax.i[2].i[0])/voxsize).getValue();
 
-        SBResidue::ResidueType* grid = new ResidueType[nx*ny*nz];
+        this->nx=nx;
+        this->ny=ny;
+        this->nz=nz;
+
+
+        SBResidue::ResidueType* grid = new SBResidue::ResidueType[nx*ny*nz];
 
         for(int i=0;i<nx*ny*nz;i++) {
                     grid[i]=SBResidue::ResidueType::Undefined;
@@ -31,17 +37,19 @@ SEProteinScannerGrid::SEProteinScannerGrid(SBIAPosition3 minmax, SBQuantity::len
 }
 
 void SEProteinScannerGrid::setRes(int x, int y, int z, SBResidue::ResidueType res) {
-    int index=x*nx+y*ny+z;
+
+
+    int index=x*ny*nz+y*nz+z;
     grid[index]=res;
 
 }
 
-SBPosition3 SEProteineScannerGrid::getOrigin() const {
+SBPosition3 SEProteinScannerGrid::getOrigin() {
     return origin;
 }
 
-SBResidue::ResidueType* getRes(int x, int y , int z) {
-    return grid[x*nx+y*ny+z];
+SBResidue::ResidueType SEProteinScannerGrid::getRes(int x, int y , int z) {
+    return grid[x*ny*nz+y*nz+z];
 }
 
 

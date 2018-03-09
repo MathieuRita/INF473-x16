@@ -3,6 +3,7 @@
 #include "SBDApp.hpp"
 #include "SEProteinScannerAppGUI.hpp"
 #include "SEProteinScannerGrid.hpp"
+#include "SEProteinScannerGridBoolean.hpp"
 
 
 /// This class implements the functionality of the app
@@ -31,9 +32,11 @@ public :
 	//@}
     void                                                            gridsize(SBIAPosition3& minmax) const;
 
-    SEProteinScannerGrid*                                           gridfill(SBIAPosition3& minmax,SBQuantity voxsize) const;
+    SEProteinScannerGrid*                                           gridfill(SBIAPosition3& minmax,SBQuantity::length voxsize, int winsize) const;
 
-    bool                                                            Scan(SEProteinScannerGrid* grid,int x,int y, int z) const;
+    bool                                                            Scan(SBQuantity::length x,SBQuantity::length y, SBQuantity::length z,SBQuantity::length distcont,SBNodeIndexer ligandAtomIndexer) const;
+
+    SEProteinScannerGridBoolean*                                    GridBoolFill(SBNodeIndexer ligandAtomIndexer,SBQuantity::length distcont,SBIAPosition3& minmax,SBQuantity::length voxsize,int winsize) const;
 
 
 };

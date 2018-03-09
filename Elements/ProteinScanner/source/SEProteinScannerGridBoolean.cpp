@@ -1,24 +1,26 @@
-#include "SAMSON.hpp"
+#include "SAMSON"
 #include "vector"
+#include "SEProteinScannerGridBoolean.hpp"
 #include "SBResidue.hpp"
 #include "SBIAVector3.hpp"
+#include "SAMSON.hpp"
+#include "vector"
 
 
 
 
 
-
-SEProteinScannerGrid::SEProteinScannerGrid(SBIAPosition3 minmax, SBQuantity::length voxsize, int winsize ) {
+SEProteinScannerGridBoolean::SEProteinScannerGridBoolean(SBIAPosition3 minmax, SBQuantity::length voxsize, int winsize ) {
 
 
         int nx = (int)((minmax.i[0].i[1]+2*winsize*voxsize-minmax.i[0].i[0])/voxsize).getValue();
         int ny = (int)((minmax.i[1].i[1]+2*winsize*voxsize-minmax.i[1].i[0])/voxsize).getValue();
         int nz = (int)((minmax.i[2].i[1]+2*winsize*voxsize-minmax.i[2].i[0])/voxsize).getValue();
 
-        SBResidue::ResidueType* grid = new ResidueType[nx*ny*nz];
+        Boolean* grid = new Boolean[nx*ny*nz];
 
         for(int i=0;i<nx*ny*nz;i++) {
-                    grid[i]=SBResidue::ResidueType::Undefined;
+                    grid[i]=0;
             }
 
         SBPosition3 origin;
@@ -30,18 +32,16 @@ SEProteinScannerGrid::SEProteinScannerGrid(SBIAPosition3 minmax, SBQuantity::len
 
 }
 
-void SEProteinScannerGrid::setRes(int x, int y, int z, SBResidue::ResidueType res) {
+void SEProteinScannerGridBoolean::setBoolean(int x, int y, int z, Boolean b) {
     int index=x*nx+y*ny+z;
-    grid[index]=res;
+    grid[index]=b;
 
 }
 
-SBPosition3 SEProteineScannerGrid::getOrigin() const {
+SBPosition3 SEProteinScannerGridBoolean::getOrigin() const {
     return origin;
 }
 
-SBResidue::ResidueType* getRes(int x, int y , int z) {
+Boolean SEProteinScannerGridBoolean::getBoolean(int x, int y , int z) {
     return grid[x*nx+y*ny+z];
 }
-
-

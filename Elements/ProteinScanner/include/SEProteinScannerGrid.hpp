@@ -12,7 +12,7 @@ class SEProteinScannerGrid: public SBDApp {
 
 public :
 
-        SEProteinScannerGrid(SBIAPosition3 size, SBQuantity::length voxsize );
+        SEProteinScannerGrid(SBIAPosition3 size, SBQuantity::length voxsize , int winsize);
         virtual ~SEProteinScannerGrid();
 
         SBResidue::ResidueType* grid;

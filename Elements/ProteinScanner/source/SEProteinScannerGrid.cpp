@@ -1,12 +1,13 @@
 #include "SAMSON"
 #include "vector"
 #include "SBResidue.hpp"
+#include "SBIAVector3.hpp"
 
 
 
 
 
-SEProteinScannerGrid::SEProteinScannerGrid(SBIAposition3 minmax, SBQuantity voxsize ) {
+SEProteinScannerGrid::SEProteinScannerGrid(SBIAPosition3 minmax, SBQuantity::length voxsize ) {
 
 
         int nx = (int)((minmax.i[0].i[1]-minmax.i[0].i[0])/voxsize).getValue();
@@ -27,17 +28,17 @@ SEProteinScannerGrid::SEProteinScannerGrid(SBIAposition3 minmax, SBQuantity voxs
 
 }
 
-void SEProteinScannerGrid::fill(int x, int y, int z, SBResidue::ResidueType res) {
+void SEProteinScannerGrid::setRes(int x, int y, int z, SBResidue::ResidueType res) {
     int index=x*nx+y*ny+z;
     grid[index]=res;
 
 }
 
-SBPosition3 SEProteineScannerGrid::getorigin() const {
+SBPosition3 SEProteineScannerGrid::getOrigin() const {
     return origin;
 }
 
-SBResidue::ResiduType* getres(int x, int y , int z) {
+SBResidue::ResidueType* getRes(int x, int y , int z) {
     return grid[x*nx+y*ny+z];
 }
 

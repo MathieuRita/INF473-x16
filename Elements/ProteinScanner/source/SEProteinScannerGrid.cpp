@@ -16,7 +16,7 @@ SEProteinScannerGrid::SEProteinScannerGrid(SBIAposition3 minmax, SBQuantity voxs
         SBResidue::ResidueType* grid = new ResidueType[nx*ny*nz];
 
         for(int i=0;i<nx*ny*nz;i++) {
-                    grid[i]=SBResidue::ResidueType(Undefined);
+                    grid[i]=SBResidue::ResidueType::Undefined;
             }
 
         origin.v[0]=minmax.i[0].i[0];
@@ -27,7 +27,7 @@ SEProteinScannerGrid::SEProteinScannerGrid(SBIAposition3 minmax, SBQuantity voxs
 
 }
 
-void SEProteinScannerGrid::fill(int x, int y, int z, SBResidu::ResidueType res) {
+void SEProteinScannerGrid::fill(int x, int y, int z, SBResidue::ResidueType res) {
     int index=x*nx+y*ny+z;
     grid[index]=res;
 
@@ -40,3 +40,5 @@ SBPosition3 SEProteineScannerGrid::getorigin() const {
 SBResidue::ResiduType* getres(int x, int y , int z) {
     return grid[x*nx+y*ny+z];
 }
+
+

@@ -1,8 +1,10 @@
 #ifndef SEPROTEINSCANNERGRID_HPP
 #define SEPROTEINSCANNERGRID_HPP
 #include "SBResidue.hpp"
+#include "SBIAVector3.hpp"
 
-#endif // SEPROTEINSCANNERGRID_HPP
+
+
 
 class SEProteinScannerGrid: public SBDApp {
 
@@ -10,16 +12,18 @@ class SEProteinScannerGrid: public SBDApp {
 
 public :
 
-        SEProteinScannerGrid(SBIAposition3 size, SBQuantity voxsize );
+        SEProteinScannerGrid(SBIAPosition3 size, SBQuantity voxsize );
         virtual ~SEProteinScannerGrid();
 
         SBResidue::ResidueType* grid;
         SBPosition3 origin;
         SBQuantity::length voxsize;
 
-        SBPosition3                                                         getorigin() const;
-        void                                                           fill(int x, int y, int z, ResiduType res);
-        SBResidue::ResiduType                                          getres(int x, int y, int z);
+        SBPosition3                                                         getOrigin() const;
+        void                                                           setRes(int x, int y, int z, SBResidue::ResidueType res);
+        SBResidue::ResidueType                                          getRes(int x, int y, int z);
 
 
-    }
+    };
+
+#endif // SEPROTEINSCANNERGRID_HPP

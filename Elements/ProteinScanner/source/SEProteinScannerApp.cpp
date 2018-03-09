@@ -6,6 +6,7 @@
 #include "SEProteinScannerGrid.hpp"
 #include "SBSideChain.hpp"
 #include "SEProteinScannerGridBoolean.hpp"
+#include <fstream>
 
 SEProteinScannerApp::SEProteinScannerApp() {
 
@@ -124,5 +125,48 @@ SEProteinScannerGridBoolean*  SEProteinScannerApp::GridBoolFill(SBNodeIndexer li
 
 }
 
+void  SEProteinScannerApp::compute(SBQuantity::length distcont,SBQuantity::length voxsize,int winsize) const{
+    SBIAPosition3 minmax;
+    gridsize(minmax);
+    SEProteinScannerGrid* grid = gridfill(minmax,voxsize,winsize);
+
+
+    SBNodePredicate* ligandPredicate = SAMSON::makeNodePredicate("a.het and not (n.t a and not (n.t a l n.t a)) and not a.w ");
+    SBNodeIndexer ligandAtomIndexer;
+    SAMSON::getActiveDocument()->getNodes(ligandAtomIndexer, *ligandPredicate);
+
+
+    SEProteinScannerGridBoolean* gridbool = GridBoolFill(ligandAtomIndexer,distcont, minmax, voxsize, winsize);
+
+    ofstream fichier("test.txt", ios::app);
+
+    fichier<<"nombre de lignes:"<<(grid->nx-2*winsize)*(grid->ny-2*winsize)*(grid->nz-2*winsize)<<endl;
+    fichier<<"demi arete"<<winsize<<endl;
+    fichier<<"Size of one Voxel (A)"<<voxsize<<endl;
+    for (int ix= winsize; ix<grid->nx-winsize;ix++){
+        for (int iy= winsize; iy<grid->ny-winsize;iy++){
+            for (int iz= winsize; iz<grid->nz-winsize;iz++){
+
+                for (int jx= ix-winsize; jx<=ix+winsize;jx++){
+                    for (int jy= iy-winsize; iy<=iy+winsize;jy++){
+                        for (int jz= iz-winsize; jz<=iz+winsize;jz++){
+                            fichier<<grid->getRes(jx,jy,jz)<<" ";
+
+                        }
+                    }
+
+                }
+                fichier<<gridbool->getBoolean(ix,iy,iz)<<endl;
+
+
+
+            }
+        }
+
+    }
+
+
+
+}
 
 

@@ -44,6 +44,10 @@ class SEColorizerColorScheme : public SBNodeColorScheme {
 
     //@}
     // proximity grid
-
-
+    bool***                                                    grid;
+    SBPosition3                                                origin;
+    int                                                        sizeX;
+    int                                                        sizeY;
+    int                                                        sizeZ;
+    SBQuantity::angstrom                                       voxelSize;
 };

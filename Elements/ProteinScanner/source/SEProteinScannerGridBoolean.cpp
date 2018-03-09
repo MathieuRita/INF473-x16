@@ -36,6 +36,8 @@ SEProteinScannerGridBoolean::SEProteinScannerGridBoolean(SBIAPosition3 minmax, S
 
 }
 
+SEProteinScannerGridBoolean::~SEProteinScannerGridBoolean() {}
+
 void SEProteinScannerGridBoolean::setBoolean(int x, int y, int z, bool b) {
     int index=x*nx+y*ny+z;
     grid[index]=b;

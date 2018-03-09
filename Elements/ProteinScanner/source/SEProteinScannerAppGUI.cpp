@@ -79,6 +79,6 @@ QString SEProteinScannerAppGUI::getCitation() const {
 void  SEProteinScannerAppGUI::onScan(){
 
 
-    getApp()->compute(SBQuantity::angstrom(ui.doubleSpinBoxContactDistance->value()),SBQuantity::angstrom(ui.doubleSpinBoxVoxelSize->value()), ui.spinBox->value());
+    getApp()->compute(SBQuantity::angstrom(ui.doubleSpinBoxContactDistance->value()),SBQuantity::angstrom(ui.doubleSpinBoxVoxelSize->value()), ui.spinBoxWindowSize->value());
 
 }

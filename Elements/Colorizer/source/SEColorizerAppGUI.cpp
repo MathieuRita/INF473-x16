@@ -38,7 +38,7 @@ QPixmap SEColorizerAppGUI::getLogo() const {
 	// SAMSON Element generator pro tip: this icon will be visible in the GUI title bar. 
 	// Modify it to better reflect the purpose of your app.
 
-	return QPixmap(QString::fromStdString(SB_ELEMENT_PATH + "/resource/icons/SEColorizerAppIcon.png"));
+	return QPixmap(QString::fromStdString(SB_ELEMENT_PATH + "/Resource/icons/SEColorizerAppIcon.png"));
 
 }
 
@@ -76,5 +76,5 @@ QString SEColorizerAppGUI::getCitation() const {
 }
 
 void SEColorizerAppGUI::onColorizedClicked(){
-    getApp() -> colorize();
+	getApp() -> colorize();
 }

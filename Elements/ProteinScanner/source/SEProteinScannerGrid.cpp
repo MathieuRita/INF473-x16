@@ -36,3 +36,7 @@ void SEProteinScannerGrid::fill(int x, int y, int z, SBResidu::ResidueType res) 
 SBPosition3 SEProteineScannerGrid::getorigin() const {
     return origin;
 }
+
+SBResidue::ResiduType* getres(int x, int y , int z) {
+    return grid[x*nx+y*ny+z];
+}

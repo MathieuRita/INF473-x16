@@ -19,6 +19,7 @@ public :
 
         SBPosition3                                                         getorigin() const;
         void                                                           fill(int x, int y, int z, ResiduType res);
+        SBResidue::ResiduType                                          getres(int x, int y, int z);
 
 
     }

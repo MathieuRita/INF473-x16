@@ -24,6 +24,7 @@ SEProteinScannerApp::~SEProteinScannerApp() {
 
 SEProteinScannerAppGUI* SEProteinScannerApp::getGUI() const { return static_cast<SEProteinScannerAppGUI*>(SBDApp::getGUI()); }
 
+
 void  SEProteinScannerApp::gridsize(SBIAPosition3& minmax) const {
 
     SBNodeIndexer nodeIndexer;
@@ -168,5 +169,3 @@ void  SEProteinScannerApp::compute(SBQuantity::length distcont,SBQuantity::lengt
 
 
 }
-
-

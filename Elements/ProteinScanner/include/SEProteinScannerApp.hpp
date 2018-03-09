@@ -29,6 +29,7 @@ public :
 
 	SEProteinScannerAppGUI*											getGUI() const;															///< Returns a pointer to the GUI of the app
 
+
 	//@}
     void                                                            gridsize(SBIAPosition3& minmax) const;
 
@@ -39,7 +40,6 @@ public :
     SEProteinScannerGridBoolean*                                    GridBoolFill(SBNodeIndexer ligandAtomIndexer,SBQuantity::length distcont,SBIAPosition3& minmax,SBQuantity::length voxsize,int winsize) const;
 
     void                                                            compute(SBQuantity::length contdist,SBQuantity::length voxsize,int winsize) const;
-
 
 };
 

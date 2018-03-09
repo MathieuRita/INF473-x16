@@ -4,11 +4,7 @@
 #include "SBIAVector3.hpp"
 
 
-
-
 class SEProteinScannerGrid {
-
-    SB_CLASS
 
 public :
 
@@ -27,6 +23,6 @@ public :
         SBResidue::ResidueType                                          getRes(int x, int y, int z);
 
 
-    };
+};
 
 #endif // SEPROTEINSCANNERGRID_HPP

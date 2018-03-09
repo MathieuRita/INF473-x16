@@ -8,9 +8,7 @@
 
 class SEProteinScannerGridBoolean {
 
-    SB_CLASS
-
-public :
+ public :
 
         SEProteinScannerGridBoolean(SBIAPosition3 size, SBQuantity::length voxsize , int winsize);
         virtual ~SEProteinScannerGridBoolean();

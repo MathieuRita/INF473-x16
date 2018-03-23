@@ -35,7 +35,7 @@ SEProteinScannerGrid::SEProteinScannerGrid(SBIAPosition3 minmax, SBQuantity::len
 
 }
 
-SEProteinScannerGrid::~SEProteinScannerGrid() {}
+SEProteinScannerGrid::~SEProteinScannerGrid() {delete[] grid ;}
 
 void SEProteinScannerGrid::setRes(int x, int y, int z, SBResidue::ResidueType res) {
 

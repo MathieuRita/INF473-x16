@@ -7,6 +7,9 @@
 #include "SBSideChain.hpp"
 #include "SEProteinScannerGridBoolean.hpp"
 #include <fstream>
+#include "SBList.hpp"
+
+#include <QDirIterator>
 
 SEProteinScannerApp::SEProteinScannerApp() {
 
@@ -136,47 +139,96 @@ SEProteinScannerGridBoolean*  SEProteinScannerApp::GridBoolFill(SBNodeIndexer li
 
 }
 
-void  SEProteinScannerApp::compute(SBQuantity::length distcont,SBQuantity::length voxsize,int winsize) const{
-    SBIAPosition3 minmax = *gridsize();
-    SEProteinScannerGrid* grid = gridfill(minmax,voxsize,winsize);
-
-
-	SBNodePredicate* ligandPredicate = SAMSON::makeNodePredicate("a.het and not (n.t a and not (n.t a l n.t a)) and not a.w ");
-	SBNodeIndexer ligandAtomIndexer;
-	SAMSON::getActiveDocument()->getNodes(ligandAtomIndexer, *ligandPredicate);
-
-
-	SEProteinScannerGridBoolean* gridbool = GridBoolFill(ligandAtomIndexer,distcont, minmax, voxsize, winsize);
+void  SEProteinScannerApp::compute(SBQuantity::length distcont,SBQuantity::length voxsize,int winsize, const QString& path) const{
 
     ofstream fichier("/users/misc-b/INF473/jacques.boitreaud/testprotein.txt");
 
-    fichier<<(grid->nx-2*winsize)*(grid->ny-2*winsize)*(grid->nz-2*winsize)<<endl;
     fichier<<winsize<<endl;
     fichier<<voxsize.getValue()<<endl;
-	for (int ix= winsize; ix<grid->nx-winsize;ix++){
-		for (int iy= winsize; iy<grid->ny-winsize;iy++){
-			for (int iz= winsize; iz<grid->nz-winsize;iz++){
 
-				for (int jx= ix-winsize; jx<=ix+winsize;jx++){
-                    for (int jy= iy-winsize; jy<=iy+winsize;jy++){
-						for (int jz= iz-winsize; jz<=iz+winsize;jz++){
-                            fichier<<grid->getRes(jx,jy,jz)<<"\t";
+    QDirIterator itC(path, QStringList() << "*.pdb", QDir::Files, QDirIterator::Subdirectories);
+    unsigned int numberOfPDBFiles = 0;
 
-						}
-					}
+    while (itC.hasNext()) {
+        numberOfPDBFiles++;
+        itC.next();
+    }
 
-				}
-				fichier<<gridbool->getBoolean(ix,iy,iz)<<endl;
+    fichier<<numberOfPDBFiles<<endl;
 
+    QDirIterator it(path, QStringList() << "*.pdb", QDir::Files, QDirIterator::Subdirectories);
 
+    while (it.hasNext()) {
 
-			}
-		}
+        QString proteinPath = it.next();
 
-	}
+        // load protein
+
+        SBList<std::string> parameters;
+        parameters.push_back("1");
+        parameters.push_back("0");
+        parameters.push_back("0");
+        parameters.push_back("1");
+        parameters.push_back("1");
+        parameters.push_back("0");
+        parameters.push_back("1");
+
+        SAMSON::importFromFile(proteinPath.toStdString(), &parameters);
+
+        // scan protein
+
+        SBIAPosition3 minmax = *gridsize();
+        SEProteinScannerGrid* grid = gridfill(minmax,voxsize,winsize);
+
+        SBNodeIndexer ligandAtomIndexer;
+        SBNodePredicate* ligandPredicate = SAMSON::makeNodePredicate("a.het and not (n.t a and not (n.t a l n.t a)) and not a.w ");
+        SAMSON::getActiveDocument()->getNodes(ligandAtomIndexer, *ligandPredicate);
+
+        SEProteinScannerGridBoolean* gridbool = GridBoolFill(ligandAtomIndexer,distcont, minmax, voxsize, winsize);
+
+        fichier<<(grid->nx-2*winsize)*(grid->ny-2*winsize)*(grid->nz-2*winsize)<<endl;
+
+        // for each sliding window
+
+        for (int ix= winsize; ix<grid->nx-winsize;ix++){
+
+            for (int iy= winsize; iy<grid->ny-winsize;iy++){
+
+                for (int iz= winsize; iz<grid->nz-winsize;iz++){
+
+                    // for the sliding window
+
+                    for (int jx= ix-winsize; jx<=ix+winsize;jx++){
+
+                        for (int jy= iy-winsize; jy<=iy+winsize;jy++){
+
+                            for (int jz= iz-winsize; jz<=iz+winsize;jz++){
+
+                                fichier<<grid->getRes(jx,jy,jz)<<"\t";
+
+                            }
+
+                        }
+
+                    }
+
+                    fichier<<gridbool->getBoolean(ix,iy,iz)<<endl;
+
+                }
+
+            }
+
+        }
+
+        // clean
+
+        delete grid;
+        delete gridbool;
+
+        SAMSON::undo(); // undo import
+
+    }
 
     fichier.close();
-    int dummy=0;
-
 
 }

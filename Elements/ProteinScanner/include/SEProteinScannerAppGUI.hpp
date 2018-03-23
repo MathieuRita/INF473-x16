@@ -54,6 +54,7 @@ public slots:
 
 	// SAMSON Element generator pro tip: add slots here to interact with your app
     void                                                          onScan();
+    void                                                          onBrowse();
 
 private:
 

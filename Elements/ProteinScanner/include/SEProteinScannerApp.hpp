@@ -41,6 +41,8 @@ public :
 
     void                                                            compute(SBQuantity::length contdist,SBQuantity::length voxsize,int winsize, const QString& path) const;
 
+    void                                                            predict(SBQuantity::length voxsize,int winsize) const;
+
 };
 
 

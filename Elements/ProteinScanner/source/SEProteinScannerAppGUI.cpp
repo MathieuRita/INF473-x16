@@ -98,3 +98,10 @@ void  SEProteinScannerAppGUI::onBrowse(){
     ui.lineEditPath->setText(path);
 
 }
+
+void  SEProteinScannerAppGUI::onPredict(){
+
+
+    getApp()->predict(SBQuantity::angstrom(ui.doubleSpinBoxVoxelSize->value()), ui.spinBoxWindowSize->value());
+
+}

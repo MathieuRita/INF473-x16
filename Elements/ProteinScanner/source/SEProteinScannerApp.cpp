@@ -232,3 +232,53 @@ void  SEProteinScannerApp::compute(SBQuantity::length distcont,SBQuantity::lengt
     fichier.close();
 
 }
+
+void  SEProteinScannerApp::predict(SBQuantity::length voxsize,int winsize) const{
+    ofstream fichier("/users/misc-b/INF473/jacques.boitreaud/predictprotein.txt");
+
+    fichier<<winsize<<endl;
+    fichier<<voxsize.getValue()<<endl;
+    SBIAPosition3 minmax = *gridsize();
+    SEProteinScannerGrid* grid = gridfill(minmax,voxsize,winsize);
+
+    SBPosition3 origin=grid->getOrigin();
+    fichier<<origin[0].getValue()<<endl;
+    fichier<<origin[1].getValue()<<endl;
+    fichier<<origin[2].getValue()<<endl;
+    fichier<<grid->nx<<endl;
+    fichier<<grid->ny<<endl;
+    fichier<<grid->nz<<endl;
+    fichier<<(grid->nx-2*winsize)*(grid->ny-2*winsize)*(grid->nz-2*winsize)<<endl;
+
+    for (int ix= winsize; ix<grid->nx-winsize;ix++){
+
+        for (int iy= winsize; iy<grid->ny-winsize;iy++){
+
+            for (int iz= winsize; iz<grid->nz-winsize;iz++){
+
+                // for the sliding window
+
+                for (int jx= ix-winsize; jx<=ix+winsize;jx++){
+
+                    for (int jy= iy-winsize; jy<=iy+winsize;jy++){
+
+                        for (int jz= iz-winsize; jz<=iz+winsize;jz++){
+
+                            fichier<<grid->getRes(jx,jy,jz)<<"\t";
+
+                        }
+
+                    }
+
+                }
+
+                fichier<<endl;
+
+            }
+
+        }
+
+    }
+    delete grid;
+
+}

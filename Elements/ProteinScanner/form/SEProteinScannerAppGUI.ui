@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>669</width>
-    <height>187</height>
+    <height>233</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -92,6 +92,13 @@
      </property>
     </widget>
    </item>
+   <item>
+    <widget class="QPushButton" name="pushButton_2">
+     <property name="text">
+      <string>Predict</string>
+     </property>
+    </widget>
+   </item>
   </layout>
  </widget>
  <resources/>
@@ -104,7 +111,7 @@
    <hints>
     <hint type="sourcelabel">
      <x>195</x>
-     <y>177</y>
+     <y>162</y>
     </hint>
     <hint type="destinationlabel">
      <x>227</x>
@@ -113,18 +120,18 @@
    </hints>
   </connection>
   <connection>
-   <sender>pushButtonBrowse</sender>
+   <sender>pushButton_2</sender>
    <signal>clicked()</signal>
    <receiver>SEProteinScannerAppGUIClass</receiver>
-   <slot>onBrowse()</slot>
+   <slot>onPredict()</slot>
    <hints>
     <hint type="sourcelabel">
-     <x>65</x>
-     <y>20</y>
+     <x>295</x>
+     <y>211</y>
     </hint>
     <hint type="destinationlabel">
-     <x>5</x>
-     <y>51</y>
+     <x>309</x>
+     <y>227</y>
     </hint>
    </hints>
   </connection>
@@ -132,5 +139,6 @@
  <slots>
   <slot>onScan()</slot>
   <slot>onBrowse()</slot>
+  <slot>onPredict()</slot>
  </slots>
 </ui>

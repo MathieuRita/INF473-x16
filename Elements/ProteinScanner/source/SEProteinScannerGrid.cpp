@@ -27,7 +27,6 @@ SEProteinScannerGrid::SEProteinScannerGrid(SBIAPosition3 minmax, SBQuantity::len
 		grid[i] = SBResidue::ResidueType::Undefined;
 	}
 
-	SBPosition3 origin;
 	origin.v[0] = minmax.i[0].i[0] - winsize*voxsize;
 	origin.v[1] = minmax.i[1].i[0] - winsize*voxsize;
 	origin.v[2] = minmax.i[2].i[0] - winsize*voxsize;

@@ -31,7 +31,7 @@ public :
 
 
 	//@}
-    void                                                            gridsize(SBIAPosition3& minmax) const;
+    SBIAPosition3*                                                   gridsize() const;
 
     SEProteinScannerGrid*                                           gridfill(SBIAPosition3& minmax,SBQuantity::length voxsize, int winsize) const;
 

@@ -21,13 +21,12 @@ SEProteinScannerGridBoolean::SEProteinScannerGridBoolean(SBIAPosition3 minmax, S
         this->ny=ny;
         this->nz=nz;
 
-        bool* grid = new bool[nx*ny*nz];
+        grid = new bool[nx*ny*nz];
 
         for(int i=0;i<nx*ny*nz;i++) {
-                    grid[i]=0;
+                    grid[i]=false;
             }
 
-        SBPosition3 origin;
         origin.v[0]=minmax.i[0].i[0]-winsize*voxsize;
         origin.v[1]=minmax.i[1].i[0]-winsize*voxsize;
         origin.v[2]=minmax.i[2].i[0]-winsize*voxsize;
@@ -39,7 +38,7 @@ SEProteinScannerGridBoolean::SEProteinScannerGridBoolean(SBIAPosition3 minmax, S
 SEProteinScannerGridBoolean::~SEProteinScannerGridBoolean() {}
 
 void SEProteinScannerGridBoolean::setBoolean(int x, int y, int z, bool b) {
-    int index=x*nx+y*ny+z;
+    int index=x*ny*nz+y*nz+z;
     grid[index]=b;
 
 }
@@ -49,5 +48,5 @@ SBPosition3 SEProteinScannerGridBoolean::getOrigin() const {
 }
 
 bool SEProteinScannerGridBoolean::getBoolean(int x, int y , int z) {
-    return grid[x*nx+y*ny+z];
+    return grid[x*ny*nz+y*nz+z];
 }

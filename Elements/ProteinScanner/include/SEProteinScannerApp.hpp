@@ -39,9 +39,11 @@ public :
 
     SEProteinScannerGridBoolean*                                    GridBoolFill(SBNodeIndexer ligandAtomIndexer,SBQuantity::length distcont,SBIAPosition3& minmax,SBQuantity::length voxsize,int winsize) const;
 
-    void                                                            compute(SBQuantity::length contdist,SBQuantity::length voxsize,int winsize, const QString& path) const;
+    void                                                            compute(SBQuantity::length contdist,SBQuantity::length voxsize,int winsize, const QString& path, int nbrot) const;
 
     void                                                            predict(SBQuantity::length voxsize,int winsize) const;
+
+    void                                                            rotation(int axe,int nbrot) const ;
 
 };
 

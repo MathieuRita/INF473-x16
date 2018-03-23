@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>669</width>
-    <height>233</height>
+    <height>262</height>
    </rect>
   </property>
   <property name="minimumSize">
@@ -83,12 +83,22 @@
        </property>
       </widget>
      </item>
+     <item row="4" column="1">
+      <widget class="QSpinBox" name="spinBoxRotate"/>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>nb rotations x axis</string>
+       </property>
+      </widget>
+     </item>
     </layout>
    </item>
    <item>
     <widget class="QPushButton" name="pushButton">
      <property name="text">
-      <string>Scan</string>
+      <string>Scan database</string>
      </property>
     </widget>
    </item>
@@ -111,7 +121,7 @@
    <hints>
     <hint type="sourcelabel">
      <x>195</x>
-     <y>162</y>
+     <y>165</y>
     </hint>
     <hint type="destinationlabel">
      <x>227</x>
@@ -127,11 +137,27 @@
    <hints>
     <hint type="sourcelabel">
      <x>295</x>
-     <y>211</y>
+     <y>214</y>
     </hint>
     <hint type="destinationlabel">
      <x>309</x>
      <y>227</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>pushButtonBrowse</sender>
+   <signal>clicked()</signal>
+   <receiver>SEProteinScannerAppGUIClass</receiver>
+   <slot>onBrowse()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>29</x>
+     <y>30</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>3</x>
+     <y>52</y>
     </hint>
    </hints>
   </connection>
@@ -140,5 +166,6 @@
   <slot>onScan()</slot>
   <slot>onBrowse()</slot>
   <slot>onPredict()</slot>
+  <slot>onRotate()</slot>
  </slots>
 </ui>

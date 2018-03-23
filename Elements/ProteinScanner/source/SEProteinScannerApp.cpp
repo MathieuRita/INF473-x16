@@ -8,6 +8,7 @@
 #include "SEProteinScannerGridBoolean.hpp"
 #include <fstream>
 #include "SBList.hpp"
+#include "SBMatrix33.hpp"
 
 #include <QDirIterator>
 
@@ -139,7 +140,40 @@ SEProteinScannerGridBoolean*  SEProteinScannerApp::GridBoolFill(SBNodeIndexer li
 
 }
 
-void  SEProteinScannerApp::compute(SBQuantity::length distcont,SBQuantity::length voxsize,int winsize, const QString& path) const{
+
+void SEProteinScannerApp::rotation(int axe,int nbrot) const {
+    if (nbrot==0){return;}
+    SBQuantity::dimensionless angle = 2*(*SBConstant::Pi)/nbrot;
+    SBVector3 axis;
+    SBMatrix33 matRot;
+
+    if(axe==0){
+        matRot.makeEulerRotationZYZ (angle, SBQuantity::dimensionless(0),SBQuantity::dimensionless(0) );
+    }
+    if(axe==1){
+        matRot.makeEulerRotationZYZ (SBQuantity::dimensionless(0),angle,SBQuantity::dimensionless(0));
+    }
+    if(axe==2){
+        matRot.makeEulerRotationZYZ (SBQuantity::dimensionless(0),SBQuantity::dimensionless(0),angle);
+    }
+
+    SBNodeIndexer nodeIndexer;
+    SAMSON::getActiveDocument()->getNodes(nodeIndexer, SBNode::IsType(SBNode::Atom));
+    SB_FOR(SBNode* node, nodeIndexer){
+        SBAtom* atom = static_cast<SBAtom*>(node);
+        atom->setPosition(matRot*atom->getPosition());
+
+    }
+
+
+
+
+
+
+}
+
+
+void  SEProteinScannerApp::compute(SBQuantity::length distcont,SBQuantity::length voxsize,int winsize, const QString& path, int nbrot) const{
 
     ofstream fichier("/users/misc-b/INF473/jacques.boitreaud/testprotein.txt");
 
@@ -174,37 +208,50 @@ void  SEProteinScannerApp::compute(SBQuantity::length distcont,SBQuantity::lengt
         parameters.push_back("1");
 
         SAMSON::importFromFile(proteinPath.toStdString(), &parameters);
+        //rotation
+        for(int rx=0;rx<=nbrot;rx++){
+            rotation(0,nbrot);
+            for(int ry=0;ry<=nbrot;ry++){
+                rotation(1,nbrot);
+                for(int rz=0;rz<=nbrot;rz++){
+                    rotation(2,nbrot);
+                    // scan protein
+                    SBIAPosition3 minmax = *gridsize();
+                    SEProteinScannerGrid* grid = gridfill(minmax,voxsize,winsize);
 
-        // scan protein
+                    SBNodeIndexer ligandAtomIndexer;
+                    SBNodePredicate* ligandPredicate = SAMSON::makeNodePredicate("a.het and not (n.t a and not (n.t a l n.t a)) and not a.w ");
+                    SAMSON::getActiveDocument()->getNodes(ligandAtomIndexer, *ligandPredicate);
 
-        SBIAPosition3 minmax = *gridsize();
-        SEProteinScannerGrid* grid = gridfill(minmax,voxsize,winsize);
+                    SEProteinScannerGridBoolean* gridbool = GridBoolFill(ligandAtomIndexer,distcont, minmax, voxsize, winsize);
 
-        SBNodeIndexer ligandAtomIndexer;
-        SBNodePredicate* ligandPredicate = SAMSON::makeNodePredicate("a.het and not (n.t a and not (n.t a l n.t a)) and not a.w ");
-        SAMSON::getActiveDocument()->getNodes(ligandAtomIndexer, *ligandPredicate);
+                    fichier<<(grid->nx-2*winsize)*(grid->ny-2*winsize)*(grid->nz-2*winsize)<<endl;
 
-        SEProteinScannerGridBoolean* gridbool = GridBoolFill(ligandAtomIndexer,distcont, minmax, voxsize, winsize);
+                    // for each sliding window
 
-        fichier<<(grid->nx-2*winsize)*(grid->ny-2*winsize)*(grid->nz-2*winsize)<<endl;
+                    for (int ix= winsize; ix<grid->nx-winsize;ix++){
 
-        // for each sliding window
+                        for (int iy= winsize; iy<grid->ny-winsize;iy++){
 
-        for (int ix= winsize; ix<grid->nx-winsize;ix++){
+                            for (int iz= winsize; iz<grid->nz-winsize;iz++){
 
-            for (int iy= winsize; iy<grid->ny-winsize;iy++){
+                                // for the sliding window
 
-                for (int iz= winsize; iz<grid->nz-winsize;iz++){
+                                for (int jx= ix-winsize; jx<=ix+winsize;jx++){
 
-                    // for the sliding window
+                                    for (int jy= iy-winsize; jy<=iy+winsize;jy++){
 
-                    for (int jx= ix-winsize; jx<=ix+winsize;jx++){
+                                        for (int jz= iz-winsize; jz<=iz+winsize;jz++){
 
-                        for (int jy= iy-winsize; jy<=iy+winsize;jy++){
+                                            fichier<<grid->getRes(jx,jy,jz)<<"\t";
 
-                            for (int jz= iz-winsize; jz<=iz+winsize;jz++){
+                                        }
 
-                                fichier<<grid->getRes(jx,jy,jz)<<"\t";
+                                    }
+
+                                }
+
+                                fichier<<gridbool->getBoolean(ix,iy,iz)<<endl;
 
                             }
 
@@ -212,18 +259,19 @@ void  SEProteinScannerApp::compute(SBQuantity::length distcont,SBQuantity::lengt
 
                     }
 
-                    fichier<<gridbool->getBoolean(ix,iy,iz)<<endl;
+                    // clean
+
+                    delete grid;
+                    delete gridbool;
+
 
                 }
-
             }
+
 
         }
 
-        // clean
 
-        delete grid;
-        delete gridbool;
 
         SAMSON::undo(); // undo import
 

@@ -281,8 +281,8 @@ void  SEProteinScannerApp::compute(SBQuantity::length distcont,SBQuantity::lengt
 
 }
 
-void  SEProteinScannerApp::predict(SBQuantity::length voxsize,int winsize) const{
-    ofstream fichier("/users/misc-b/INF473/jacques.boitreaud/predict1a1e.txt");
+void  SEProteinScannerApp::predict(SBQuantity::length voxsize,int winsize, QString filename ) const{
+    ofstream fichier(filename.toStdString());
 
     fichier<<winsize<<endl;
     fichier<<voxsize.getValue()<<endl;

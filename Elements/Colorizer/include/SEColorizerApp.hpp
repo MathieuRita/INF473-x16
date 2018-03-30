@@ -28,7 +28,7 @@ public :
 	SEColorizerAppGUI*											getGUI() const;															///< Returns a pointer to the GUI of the app
 
 	//@}
-    void                                                        colorize();
+    void                                                        colorize(const QString& gridPath);
 };
 
 

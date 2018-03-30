@@ -175,7 +175,7 @@ void SEProteinScannerApp::rotation(int axe,int nbrot) const {
 
 void  SEProteinScannerApp::compute(SBQuantity::length distcont,SBQuantity::length voxsize,int winsize, const QString& path, int nbrot) const{
 
-    ofstream fichier("/users/misc-b/INF473/jacques.boitreaud/testprotein.txt");
+    ofstream fichier("/users/misc-b/INF473/jacques.boitreaud/testpourcomparer.txt");
 
     fichier<<winsize<<endl;
     fichier<<voxsize.getValue()<<endl;
@@ -281,8 +281,8 @@ void  SEProteinScannerApp::compute(SBQuantity::length distcont,SBQuantity::lengt
 
 }
 
-void  SEProteinScannerApp::predict(SBQuantity::length voxsize,int winsize) const{
-    ofstream fichier("/users/misc-b/INF473/jacques.boitreaud/predictprotein.txt");
+void  SEProteinScannerApp::predict(SBQuantity::length voxsize,int winsize, QString filename ) const{
+    ofstream fichier(filename.toStdString());
 
     fichier<<winsize<<endl;
     fichier<<voxsize.getValue()<<endl;
@@ -290,12 +290,12 @@ void  SEProteinScannerApp::predict(SBQuantity::length voxsize,int winsize) const
     SEProteinScannerGrid* grid = gridfill(minmax,voxsize,winsize);
 
     SBPosition3 origin=grid->getOrigin();
-    fichier<<origin[0].getValue()<<endl;
-    fichier<<origin[1].getValue()<<endl;
-    fichier<<origin[2].getValue()<<endl;
-    fichier<<grid->nx<<endl;
-    fichier<<grid->ny<<endl;
-    fichier<<grid->nz<<endl;
+    fichier<<(origin[0]+winsize*voxsize).getValue()<<endl;
+    fichier<<(origin[1]+winsize*voxsize).getValue()<<endl;
+    fichier<<(origin[2]+winsize*voxsize).getValue()<<endl;
+    fichier<<grid->nx-2*winsize<<endl;
+    fichier<<grid->ny-2*winsize<<endl;
+    fichier<<grid->nz-2*winsize<<endl;
     fichier<<(grid->nx-2*winsize)*(grid->ny-2*winsize)*(grid->nz-2*winsize)<<endl;
 
     for (int ix= winsize; ix<grid->nx-winsize;ix++){

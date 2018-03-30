@@ -60,6 +60,7 @@ private slots:
 private:
 
 	Ui::SEColorizerAppGUIClass									ui;
+    QString                                                     gridPath;
 
 };
 

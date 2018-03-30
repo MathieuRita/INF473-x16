@@ -21,11 +21,15 @@ void SEColorizerAppGUI::loadSettings( SBGSettings *settings ) {
 	
 	// SAMSON Element generator pro tip: complete this function so your app can save its GUI state from one session to the next
 
+    gridPath=settings->loadQStringValue("gridPath","");
+
 }
 
 void SEColorizerAppGUI::saveSettings( SBGSettings *settings ) {
 
 	if ( settings == NULL ) return;
+
+    settings->saveValue("gridPath", gridPath);
 
 	// SAMSON Element generator pro tip: complete this function so your app can save its GUI state from one session to the next
 
@@ -76,5 +80,10 @@ QString SEColorizerAppGUI::getCitation() const {
 }
 
 void SEColorizerAppGUI::onColorizedClicked(){
-	getApp() -> colorize();
+
+    QString title = "Enter the path leading to the grid of proximity";
+    gridPath = QFileDialog::getOpenFileName(0, title, gridPath);
+
+    getApp() -> colorize(gridPath);
+
 }

@@ -87,7 +87,7 @@
             <Add option="-DSB_SDK_VERSION_NUMBER=SBVersionNumber(0, 7, 0)" />
             <Add option="-DELEMENT_NAME=&quot;SEProteinScanner&quot;" />
             <Add option="-DSB_ELEMENT_UUID=&quot;5E1C027D-0489-DC96-C0D6-F84CF9BB6C42&quot;" />
-            <Add option="-DSB_ELEMENT_VERSION_HASH=&quot;a5823ced1aea3555ce69a4fdef88e2b99d41127c&quot;" />
+            <Add option="-DSB_ELEMENT_VERSION_HASH=&quot;128d8f48d6d4a7e562b3ba198d125e7027d365f0&quot;" />
             <Add option="-DQT_CORE_LIB" />
             <Add option="-DQT_NO_DEBUG" />
             <Add option="-DQT_GUI_LIB" />
@@ -208,7 +208,7 @@
             <Add option="-DSB_SDK_VERSION_NUMBER=SBVersionNumber(0, 7, 0)" />
             <Add option="-DELEMENT_NAME=&quot;SEProteinScanner&quot;" />
             <Add option="-DSB_ELEMENT_UUID=&quot;5E1C027D-0489-DC96-C0D6-F84CF9BB6C42&quot;" />
-            <Add option="-DSB_ELEMENT_VERSION_HASH=&quot;a5823ced1aea3555ce69a4fdef88e2b99d41127c&quot;" />
+            <Add option="-DSB_ELEMENT_VERSION_HASH=&quot;128d8f48d6d4a7e562b3ba198d125e7027d365f0&quot;" />
             <Add option="-DQT_CORE_LIB" />
             <Add option="-DQT_NO_DEBUG" />
             <Add option="-DQT_GUI_LIB" />
@@ -339,7 +339,7 @@
             <Add option="-DSB_SDK_VERSION_NUMBER=SBVersionNumber(0, 7, 0)" />
             <Add option="-DELEMENT_NAME=&quot;SEColorizer&quot;" />
             <Add option="-DSB_ELEMENT_UUID=&quot;E770E4DE-F2C4-A42B-8BE1-3EBEE8BC9233&quot;" />
-            <Add option="-DSB_ELEMENT_VERSION_HASH=&quot;a5823ced1aea3555ce69a4fdef88e2b99d41127c&quot;" />
+            <Add option="-DSB_ELEMENT_VERSION_HASH=&quot;128d8f48d6d4a7e562b3ba198d125e7027d365f0&quot;" />
             <Add option="-DQT_CORE_LIB" />
             <Add option="-DQT_NO_DEBUG" />
             <Add option="-DQT_GUI_LIB" />
@@ -460,7 +460,7 @@
             <Add option="-DSB_SDK_VERSION_NUMBER=SBVersionNumber(0, 7, 0)" />
             <Add option="-DELEMENT_NAME=&quot;SEColorizer&quot;" />
             <Add option="-DSB_ELEMENT_UUID=&quot;E770E4DE-F2C4-A42B-8BE1-3EBEE8BC9233&quot;" />
-            <Add option="-DSB_ELEMENT_VERSION_HASH=&quot;a5823ced1aea3555ce69a4fdef88e2b99d41127c&quot;" />
+            <Add option="-DSB_ELEMENT_VERSION_HASH=&quot;128d8f48d6d4a7e562b3ba198d125e7027d365f0&quot;" />
             <Add option="-DQT_CORE_LIB" />
             <Add option="-DQT_NO_DEBUG" />
             <Add option="-DQT_GUI_LIB" />

@@ -41,9 +41,11 @@ public :
 
     void                                                            compute(SBQuantity::length contdist,SBQuantity::length voxsize,int winsize, const QString& path, int nbrot) const;
 
-    void                                                            predict(SBQuantity::length voxsize,int winsize) const;
+    void                                                            predict(SBQuantity::length voxsize,int winsize, QString filename) const;
 
     void                                                            rotation(int axe,int nbrot) const ;
+
+    /* void                                                            predictdatabase(SBQuantity::length voxsize,int winsize) const{ */
 
 };
 

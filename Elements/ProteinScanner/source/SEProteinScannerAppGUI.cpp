@@ -23,6 +23,7 @@ void SEProteinScannerAppGUI::loadSettings( SBGSettings *settings ) {
     ui.doubleSpinBoxContactDistance->setValue(settings->loadDoubleValue("contactDistance", 5.0));
     ui.doubleSpinBoxVoxelSize->setValue(settings->loadDoubleValue("voxelSize", 3.0));
     ui.spinBoxWindowSize->setValue(settings->loadIntValue("windowSize", 2));
+     ui.lineEditOutputFile->setText(settings->loadQStringValue("outputFile", ""));
 
 }
 
@@ -34,7 +35,7 @@ void SEProteinScannerAppGUI::saveSettings( SBGSettings *settings ) {
     settings->saveValue("contactDistance", ui.doubleSpinBoxContactDistance->value());
     settings->saveValue("voxelSize", ui.doubleSpinBoxVoxelSize->value());
     settings->saveValue("windowSize", ui.spinBoxWindowSize->value());
-
+    settings->saveValue("outputFile", ui.lineEditOutputFile->text());
 }
 
 SBCContainerUUID SEProteinScannerAppGUI::getUUID() const { return SBCContainerUUID( "D66D8C1D-AE31-5F90-6FAC-CF2D6AF04CEE" );}
@@ -102,6 +103,6 @@ void  SEProteinScannerAppGUI::onBrowse(){
 void  SEProteinScannerAppGUI::onPredict(){
 
 
-    getApp()->predict(SBQuantity::angstrom(ui.doubleSpinBoxVoxelSize->value()), ui.spinBoxWindowSize->value());
+    getApp()->predict(SBQuantity::angstrom(ui.doubleSpinBoxVoxelSize->value()), ui.spinBoxWindowSize->value(), ui.lineEditOutputFile->text());
 
 }

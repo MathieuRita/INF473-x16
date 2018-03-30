@@ -2,6 +2,8 @@
 
 #include "SBDApp.hpp"
 #include "SEProteinScannerAppGUI.hpp"
+#include "SEProteinScannerGrid.hpp"
+#include "SEProteinScannerGridBoolean.hpp"
 
 
 /// This class implements the functionality of the app
@@ -27,7 +29,21 @@ public :
 
 	SEProteinScannerAppGUI*											getGUI() const;															///< Returns a pointer to the GUI of the app
 
+
 	//@}
+    SBIAPosition3*                                                   gridsize() const;
+
+    SEProteinScannerGrid*                                           gridfill(SBIAPosition3& minmax,SBQuantity::length voxsize, int winsize) const;
+
+    bool                                                            Scan(SBQuantity::length x,SBQuantity::length y, SBQuantity::length z,SBQuantity::length distcont,SBNodeIndexer ligandAtomIndexer) const;
+
+    SEProteinScannerGridBoolean*                                    GridBoolFill(SBNodeIndexer ligandAtomIndexer,SBQuantity::length distcont,SBIAPosition3& minmax,SBQuantity::length voxsize,int winsize) const;
+
+    void                                                            compute(SBQuantity::length contdist,SBQuantity::length voxsize,int winsize, const QString& path, int nbrot) const;
+
+    void                                                            predict(SBQuantity::length voxsize,int winsize) const;
+
+    void                                                            rotation(int axe,int nbrot) const ;
 
 };
 

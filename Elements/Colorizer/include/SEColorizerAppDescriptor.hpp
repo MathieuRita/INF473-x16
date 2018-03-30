@@ -12,7 +12,7 @@
 SB_CLASS_BEGIN(SEColorizerApp);
 
 	SB_CLASS_TYPE(SBCClass::App);
-        SB_CLASS_DESCRIPTION("SEColorizerApp : SAMSON Element generator pro tip: modify me");
+    SB_CLASS_DESCRIPTION("SEColorizerApp : SAMSON Element generator pro tip: modify me");
 
 	SB_FACTORY_BEGIN;
 

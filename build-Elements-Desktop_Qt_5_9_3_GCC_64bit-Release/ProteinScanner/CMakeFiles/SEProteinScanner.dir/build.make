@@ -126,9 +126,55 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerDescriptor
 
 ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerDescriptor.cpp.o.provides.build: ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerDescriptor.cpp.o
 
+ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.o: ProteinScanner/CMakeFiles/SEProteinScanner.dir/flags.make
+ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.o: /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/source/SEProteinScannerGrid.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Release/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.o"
+	cd /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Release/ProteinScanner && /usr/local/bin/g++71   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.o -c /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/source/SEProteinScannerGrid.cpp
+
+ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.i"
+	cd /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Release/ProteinScanner && /usr/local/bin/g++71  $(CXX_DEFINES) $(CXX_FLAGS) -E /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/source/SEProteinScannerGrid.cpp > CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.i
+
+ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.s"
+	cd /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Release/ProteinScanner && /usr/local/bin/g++71  $(CXX_DEFINES) $(CXX_FLAGS) -S /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/source/SEProteinScannerGrid.cpp -o CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.s
+
+ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.o.requires:
+.PHONY : ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.o.requires
+
+ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.o.provides: ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.o.requires
+	$(MAKE) -f ProteinScanner/CMakeFiles/SEProteinScanner.dir/build.make ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.o.provides.build
+.PHONY : ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.o.provides
+
+ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.o.provides.build: ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.o
+
+ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.o: ProteinScanner/CMakeFiles/SEProteinScanner.dir/flags.make
+ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.o: /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/source/SEProteinScannerGridBoolean.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Release/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.o"
+	cd /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Release/ProteinScanner && /usr/local/bin/g++71   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.o -c /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/source/SEProteinScannerGridBoolean.cpp
+
+ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.i"
+	cd /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Release/ProteinScanner && /usr/local/bin/g++71  $(CXX_DEFINES) $(CXX_FLAGS) -E /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/source/SEProteinScannerGridBoolean.cpp > CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.i
+
+ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.s"
+	cd /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Release/ProteinScanner && /usr/local/bin/g++71  $(CXX_DEFINES) $(CXX_FLAGS) -S /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/source/SEProteinScannerGridBoolean.cpp -o CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.s
+
+ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.o.requires:
+.PHONY : ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.o.requires
+
+ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.o.provides: ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.o.requires
+	$(MAKE) -f ProteinScanner/CMakeFiles/SEProteinScanner.dir/build.make ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.o.provides.build
+.PHONY : ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.o.provides
+
+ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.o.provides.build: ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.o
+
 ProteinScanner/CMakeFiles/SEProteinScanner.dir/SEProteinScanner_automoc.cpp.o: ProteinScanner/CMakeFiles/SEProteinScanner.dir/flags.make
 ProteinScanner/CMakeFiles/SEProteinScanner.dir/SEProteinScanner_automoc.cpp.o: ProteinScanner/SEProteinScanner_automoc.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Release/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Release/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object ProteinScanner/CMakeFiles/SEProteinScanner.dir/SEProteinScanner_automoc.cpp.o"
 	cd /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Release/ProteinScanner && /usr/local/bin/g++71   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SEProteinScanner.dir/SEProteinScanner_automoc.cpp.o -c /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Release/ProteinScanner/SEProteinScanner_automoc.cpp
 
@@ -154,6 +200,8 @@ SEProteinScanner_OBJECTS = \
 "CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerAppGUI.cpp.o" \
 "CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerApp.cpp.o" \
 "CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerDescriptor.cpp.o" \
+"CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.o" \
+"CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.o" \
 "CMakeFiles/SEProteinScanner.dir/SEProteinScanner_automoc.cpp.o"
 
 # External object files for target SEProteinScanner
@@ -162,6 +210,8 @@ SEProteinScanner_EXTERNAL_OBJECTS =
 Release/5E1C027D-0489-DC96-C0D6-F84CF9BB6C42.so: ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerAppGUI.cpp.o
 Release/5E1C027D-0489-DC96-C0D6-F84CF9BB6C42.so: ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerApp.cpp.o
 Release/5E1C027D-0489-DC96-C0D6-F84CF9BB6C42.so: ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerDescriptor.cpp.o
+Release/5E1C027D-0489-DC96-C0D6-F84CF9BB6C42.so: ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.o
+Release/5E1C027D-0489-DC96-C0D6-F84CF9BB6C42.so: ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.o
 Release/5E1C027D-0489-DC96-C0D6-F84CF9BB6C42.so: ProteinScanner/CMakeFiles/SEProteinScanner.dir/SEProteinScanner_automoc.cpp.o
 Release/5E1C027D-0489-DC96-C0D6-F84CF9BB6C42.so: ProteinScanner/CMakeFiles/SEProteinScanner.dir/build.make
 Release/5E1C027D-0489-DC96-C0D6-F84CF9BB6C42.so: /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/lib/libQt5Core.so.5.9.3
@@ -254,6 +304,8 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/build: Release/5E1C027D-0489-DC96
 ProteinScanner/CMakeFiles/SEProteinScanner.dir/requires: ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerAppGUI.cpp.o.requires
 ProteinScanner/CMakeFiles/SEProteinScanner.dir/requires: ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerApp.cpp.o.requires
 ProteinScanner/CMakeFiles/SEProteinScanner.dir/requires: ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerDescriptor.cpp.o.requires
+ProteinScanner/CMakeFiles/SEProteinScanner.dir/requires: ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.o.requires
+ProteinScanner/CMakeFiles/SEProteinScanner.dir/requires: ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.o.requires
 ProteinScanner/CMakeFiles/SEProteinScanner.dir/requires: ProteinScanner/CMakeFiles/SEProteinScanner.dir/SEProteinScanner_automoc.cpp.o.requires
 .PHONY : ProteinScanner/CMakeFiles/SEProteinScanner.dir/requires
 

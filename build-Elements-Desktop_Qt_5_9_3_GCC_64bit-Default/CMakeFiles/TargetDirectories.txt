@@ -1,4 +1,0 @@
-/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Colorizer/CMakeFiles/SEColorizer.dir
-/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/Colorizer/CMakeFiles/SEColorizer_automoc.dir
-/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/ProteinScanner/CMakeFiles/SEProteinScanner.dir
-/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Default/ProteinScanner/CMakeFiles/SEProteinScanner_automoc.dir

@@ -582,6 +582,10 @@
       </Unit>
       <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/source/SEProteinScannerDescriptor.cpp">
       </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/source/SEProteinScannerGrid.cpp">
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/source/SEProteinScannerGridBoolean.cpp">
+      </Unit>
       <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/Colorizer/form/SEColorizerAppGUI.ui">
       </Unit>
       <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/Colorizer/include/SEColorizerApp.hpp">
@@ -599,6 +603,10 @@
       <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include/SEProteinScannerAppDescriptor.hpp">
       </Unit>
       <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include/SEProteinScannerAppGUI.hpp">
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include/SEProteinScannerGrid.hpp">
+      </Unit>
+      <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include/SEProteinScannerGridBoolean.hpp">
       </Unit>
       <Unit filename="/users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />

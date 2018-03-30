@@ -19,7 +19,10 @@ void SEProteinScannerAppGUI::loadSettings( SBGSettings *settings ) {
 
 	if ( settings == NULL ) return;
 	
-	// SAMSON Element generator pro tip: complete this function so your app can save its GUI state from one session to the next
+    ui.lineEditPath->setText(settings->loadQStringValue("proteinFolder", ""));
+    ui.doubleSpinBoxContactDistance->setValue(settings->loadDoubleValue("contactDistance", 5.0));
+    ui.doubleSpinBoxVoxelSize->setValue(settings->loadDoubleValue("voxelSize", 3.0));
+    ui.spinBoxWindowSize->setValue(settings->loadIntValue("windowSize", 2));
 
 }
 
@@ -27,7 +30,10 @@ void SEProteinScannerAppGUI::saveSettings( SBGSettings *settings ) {
 
 	if ( settings == NULL ) return;
 
-	// SAMSON Element generator pro tip: complete this function so your app can save its GUI state from one session to the next
+    settings->saveValue("proteinFolder", ui.lineEditPath->text());
+    settings->saveValue("contactDistance", ui.doubleSpinBoxContactDistance->value());
+    settings->saveValue("voxelSize", ui.doubleSpinBoxVoxelSize->value());
+    settings->saveValue("windowSize", ui.spinBoxWindowSize->value());
 
 }
 
@@ -73,4 +79,29 @@ QString SEProteinScannerAppGUI::getCitation() const {
 		"<br/>"
 		"[1] <a href=\"https://www.samson-connect.net\">https://www.samson-connect.net</a><br/>";
 	
+}
+
+
+void  SEProteinScannerAppGUI::onScan(){
+
+
+    getApp()->compute(SBQuantity::angstrom(ui.doubleSpinBoxContactDistance->value()),SBQuantity::angstrom(ui.doubleSpinBoxVoxelSize->value()), ui.spinBoxWindowSize->value(), ui.lineEditPath->text(),ui.spinBoxRotate->value());
+
+}
+
+
+void  SEProteinScannerAppGUI::onBrowse(){
+
+    QString path;
+    SAMSON::getPathFromUser("Enter protein folder", path);
+
+    ui.lineEditPath->setText(path);
+
+}
+
+void  SEProteinScannerAppGUI::onPredict(){
+
+
+    getApp()->predict(SBQuantity::angstrom(ui.doubleSpinBoxVoxelSize->value()), ui.spinBoxWindowSize->value());
+
 }

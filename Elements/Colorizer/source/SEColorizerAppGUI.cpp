@@ -76,5 +76,5 @@ QString SEColorizerAppGUI::getCitation() const {
 }
 
 void SEColorizerAppGUI::onColorizedClicked(){
-    getApp() -> colorize();
+	getApp() -> colorize();
 }

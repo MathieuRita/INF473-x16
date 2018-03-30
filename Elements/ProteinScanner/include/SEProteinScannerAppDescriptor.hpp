@@ -12,7 +12,7 @@
 SB_CLASS_BEGIN(SEProteinScannerApp);
 
 	SB_CLASS_TYPE(SBCClass::App);
-        SB_CLASS_DESCRIPTION("SEProteinScannerApp : SAMSON Element generator pro tip: modify me");
+    SB_CLASS_DESCRIPTION("SEProteinScannerApp : SAMSON Element generator pro tip: modify me");
 
 	SB_FACTORY_BEGIN;
 

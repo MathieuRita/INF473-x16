@@ -266,6 +266,54 @@ source/SEProteinScannerDescriptor.cpp.s:
 	cd /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Release && $(MAKE) -f ProteinScanner/CMakeFiles/SEProteinScanner.dir/build.make ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerDescriptor.cpp.s
 .PHONY : source/SEProteinScannerDescriptor.cpp.s
 
+source/SEProteinScannerGrid.o: source/SEProteinScannerGrid.cpp.o
+.PHONY : source/SEProteinScannerGrid.o
+
+# target to build an object file
+source/SEProteinScannerGrid.cpp.o:
+	cd /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Release && $(MAKE) -f ProteinScanner/CMakeFiles/SEProteinScanner.dir/build.make ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.o
+.PHONY : source/SEProteinScannerGrid.cpp.o
+
+source/SEProteinScannerGrid.i: source/SEProteinScannerGrid.cpp.i
+.PHONY : source/SEProteinScannerGrid.i
+
+# target to preprocess a source file
+source/SEProteinScannerGrid.cpp.i:
+	cd /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Release && $(MAKE) -f ProteinScanner/CMakeFiles/SEProteinScanner.dir/build.make ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.i
+.PHONY : source/SEProteinScannerGrid.cpp.i
+
+source/SEProteinScannerGrid.s: source/SEProteinScannerGrid.cpp.s
+.PHONY : source/SEProteinScannerGrid.s
+
+# target to generate assembly for a file
+source/SEProteinScannerGrid.cpp.s:
+	cd /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Release && $(MAKE) -f ProteinScanner/CMakeFiles/SEProteinScanner.dir/build.make ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.s
+.PHONY : source/SEProteinScannerGrid.cpp.s
+
+source/SEProteinScannerGridBoolean.o: source/SEProteinScannerGridBoolean.cpp.o
+.PHONY : source/SEProteinScannerGridBoolean.o
+
+# target to build an object file
+source/SEProteinScannerGridBoolean.cpp.o:
+	cd /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Release && $(MAKE) -f ProteinScanner/CMakeFiles/SEProteinScanner.dir/build.make ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.o
+.PHONY : source/SEProteinScannerGridBoolean.cpp.o
+
+source/SEProteinScannerGridBoolean.i: source/SEProteinScannerGridBoolean.cpp.i
+.PHONY : source/SEProteinScannerGridBoolean.i
+
+# target to preprocess a source file
+source/SEProteinScannerGridBoolean.cpp.i:
+	cd /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Release && $(MAKE) -f ProteinScanner/CMakeFiles/SEProteinScanner.dir/build.make ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.i
+.PHONY : source/SEProteinScannerGridBoolean.cpp.i
+
+source/SEProteinScannerGridBoolean.s: source/SEProteinScannerGridBoolean.cpp.s
+.PHONY : source/SEProteinScannerGridBoolean.s
+
+# target to generate assembly for a file
+source/SEProteinScannerGridBoolean.cpp.s:
+	cd /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/build-Elements-Desktop_Qt_5_9_3_GCC_64bit-Release && $(MAKE) -f ProteinScanner/CMakeFiles/SEProteinScanner.dir/build.make ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.s
+.PHONY : source/SEProteinScannerGridBoolean.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -292,6 +340,12 @@ help:
 	@echo "... source/SEProteinScannerDescriptor.o"
 	@echo "... source/SEProteinScannerDescriptor.i"
 	@echo "... source/SEProteinScannerDescriptor.s"
+	@echo "... source/SEProteinScannerGrid.o"
+	@echo "... source/SEProteinScannerGrid.i"
+	@echo "... source/SEProteinScannerGrid.s"
+	@echo "... source/SEProteinScannerGridBoolean.o"
+	@echo "... source/SEProteinScannerGridBoolean.i"
+	@echo "... source/SEProteinScannerGridBoolean.s"
 .PHONY : help
 
 

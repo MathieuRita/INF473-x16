@@ -32,8 +32,8 @@ tf.logging.set_verbosity(tf.logging.INFO)
 
 ######### LOADING DATAS #########
 
-def generate_data(taux):
-    fichier=open("/Users/MathieuRita/Desktop/MODAL/INF473-x16/proteinesderemi.txt", "r")
+def generate_data(taux,adresse_fichier_txt):
+    fichier=open(adresse_fichier_txt, "r")
     L=fichier.readlines()
     window_size=2*int(L[0])+1
     cell_size=int(L[1]) #pm
@@ -100,7 +100,7 @@ def balance(train_data_load,train_labels_load,rate):
         i+=1
     return (tdata,tlabels)
 
-def concatenation(deb,fin):
+def concatenation(deb,fin,dataname,labelname):
     train_data_load=np.load("dataset"+str(deb)+".npy")  #np.array des donnees d entrainement,
     train_labels_load=np.load("labelset"+str(deb)+".npy")   #np.array des labels de dtype=np.int32 normalement
     tdata,tlabels=balance(train_data_load,train_labels_load)
@@ -111,9 +111,12 @@ def concatenation(deb,fin):
         tdata,tlabels=balance(train_data_load,train_labels_load)
         data=np.append(data, tdata, axis=0)
         label=np.append(label, tlabels, axis=0)
-    np.save("datach",data)
-    np.save("labelch",label)
-    print(data.shape,label.shape)
+    np.save(dataname,data)
+    np.save(labelname,label)
+
+def create_dataset(dataname,labelname,adresse_fichier_txt):
+    generate_data(300,adresse_fichier_txt)
+    concatenation(0,300,dataname,labelname)
 
 ######## CNN CLASSIFIER ########
 
@@ -246,7 +249,7 @@ def evaluation2(pred,predict_labels) :
 ######## EXPORTATIONS DES DONNEES ############
 
 def generate_pred():
-    fichier=open("/Users/MathieuRita/Desktop/MODAL/INF473-x16/predict1a1e.txt", "r")
+    fichier=open("/Users/MathieuRita/Desktop/MODAL/INF473-x16/predict_5bw4_complex.txt", "r")
     L=fichier.readlines()
     window_size=2*int(L[0])+1
     cell_size=int(L[1]) #pm
@@ -280,8 +283,8 @@ def exportation(filename,cell_size, ox, oy, oz, nx, ny, nz, label) :
 
 ######## INSTRUCTIONS ############
 
-predict_data = np.load("datatst.npy") #donnees a predire
-predict_labels=np.load("labeltst.npy")
+# predict_data = np.load("datatst.npy") #donnees a predire
+# predict_labels=np.load("labeltst.npy")
 train_data_load=np.load("datach.npy")  #np.array des donnees d entrainement,
 train_labels_load=np.load("labelch.npy")   #np.array des labels de dtype=np.int32 normalement
 # eval_data=  #np.array des donnees qui permettent d evaluer notre algo
@@ -295,7 +298,7 @@ def correction(pred):
     return pred
 
 
-# training(train_data_load,train_labels_load)
+#training(train_data_load,train_labels_load)
 # pred=prediction()
 # evaluation(pred,predict_labels)
 # pred=correction(pred)

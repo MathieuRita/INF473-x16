@@ -21,10 +21,10 @@ SEColorizerColorScheme::SEColorizerColorScheme(QString gridPath) {
     {
         double ox, oy, oz,vs;
         fichier >> vs >> ox>> oy>> oz >> sizeX >> sizeY >> sizeZ;;
-        voxelSize = SBQuantity::angstrom(vs);
-        origin.v[0] = SBQuantity::angstrom(ox);
-        origin.v[1] = SBQuantity::angstrom(oy);
-        origin.v[2] = SBQuantity::angstrom(oz);
+        voxelSize = SBQuantity::picometer(vs);
+        origin.v[0] = SBQuantity::picometer(ox);
+        origin.v[1] = SBQuantity::picometer(oy);
+        origin.v[2] = SBQuantity::picometer(oz);
 
         grid = new bool**[sizeX];
         for (int x = 0; x <sizeX; x++){
@@ -74,9 +74,9 @@ void SEColorizerColorScheme::getColor(float* color, SBNode* node, const SBPositi
     SBAtom* atom = static_cast<SBAtom*>(node);
     SBPosition3 position1 = atom->getPosition();
 
-    int x = (int)((SBQuantity::angstrom(position1.v[0])-origin.v[0])/voxelSize).getValue();
-    int y = (int)((SBQuantity::angstrom(position1.v[1])-origin.v[1])/voxelSize).getValue();
-    int z = (int)((SBQuantity::angstrom(position1.v[2])-origin.v[2])/voxelSize).getValue();
+    int x = (int)((position1.v[0]-origin.v[0])/voxelSize).getValue();
+    int y = (int)((position1.v[1]-origin.v[1])/voxelSize).getValue();
+    int z = (int)((position1.v[2]-origin.v[2])/voxelSize).getValue();
 
     color[0] = 1.0f;
     color[1] = 1.0f;
@@ -87,23 +87,28 @@ void SEColorizerColorScheme::getColor(float* color, SBNode* node, const SBPositi
     if (y<0) return;
     if (z<0) return;
 
-    if (x+1>sizeX-1) return;
-    if (y+1>sizeY-1) return;
-    if (z+1>sizeZ-1) return;
+    int interpolMaxX = x+2;
+    int interpolMaxY = y+2;
+    int interpolMaxZ = z+2;
+    if (x+1>sizeX-1) interpolMaxX = sizeX;
+    if (y+1>sizeY-1) interpolMaxY = sizeY;
+    if (z+1>sizeZ-1) interpolMaxZ = sizeZ;
 
     float distance = 0.0f;
     float weightedSum = 0.0f;
 
-
-    for (int i = x; i <x+2; i++){
-        for(int j = y; j<y+2;j++){
-            for(int k = z; k<z+2 ; k++){
+    for (int i = x; i <interpolMaxX; i++){
+        for(int j = y; j<interpolMaxY;j++){
+            for(int k = z; k<interpolMaxZ ; k++){
                 distance += (float) ((SBQuantity::angstrom((position1-(SBPosition3(i*voxelSize+origin.v[0],j*voxelSize+origin.v[1],k*voxelSize+origin.v[2]))).norm())).getValue());
                 weightedSum += (float)(1-grid[i][j][k])*((float)SBQuantity::angstrom((position1-(SBPosition3(i*voxelSize+origin.v[0],j*voxelSize+origin.v[1],k*voxelSize+origin.v[2]))).norm()).getValue());
             }
         }
     }
-
+    if (distance== 0.0f) {
+        distance = 1.0f;
+        weightedSum = 1.0f;
+    }
     color[0] = 1.0f-weightedSum/distance;
     color[1] = 0.0f;
     color[2] = 0.0f;

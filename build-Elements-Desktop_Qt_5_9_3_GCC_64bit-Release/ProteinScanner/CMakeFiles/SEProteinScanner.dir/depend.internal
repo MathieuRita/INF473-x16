@@ -131,12 +131,16 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/SEProteinScanner_automoc.cpp.o
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpaintdevice.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpainterpath.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpalette.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpen.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpixelformat.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpixmap.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpolygon.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qregion.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qrgb.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qrgba64.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtextcursor.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtextformat.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtextoption.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtgui-config.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtguiglobal.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtouchdevice.h
@@ -148,10 +152,17 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/SEProteinScanner_automoc.cpp.o
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QAction
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QApplication
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QButtonGroup
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QDoubleSpinBox
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QFormLayout
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QHeaderView
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QLabel
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QLayout
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QLineEdit
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QPushButton
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QSpinBox
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QVBoxLayout
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QWidget
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qabstractbutton.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qabstractitemdelegate.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qabstractitemview.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qabstractscrollarea.h
@@ -163,15 +174,19 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/SEProteinScanner_automoc.cpp.o
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qboxlayout.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qbuttongroup.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qdesktopwidget.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qformlayout.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qframe.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qgridlayout.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qheaderview.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qlabel.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qlayout.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qlayoutitem.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qlineedit.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qpushbutton.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qrubberband.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qsizepolicy.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qslider.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qspinbox.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qstyle.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qstyleoption.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qtabbar.h
@@ -343,6 +358,7 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerApp.cpp.o
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBDynamicalEvent.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBIAVector3.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBInteractionEvent.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBList.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBMatrix33.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBNode.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBNodeGroup.hpp
@@ -354,6 +370,7 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerApp.cpp.o
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBPointerTarget.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBProxy.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBResidue.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBSideChain.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBSimulatorEvent.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBSimulatorParticleSystem.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBUUID.hpp
@@ -405,6 +422,7 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerApp.cpp.o
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/StructuralModel/SBMStructuralModelNodeGroup.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/StructuralModel/SBMStructuralModelNodeParticle.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/StructuralModel/SBMStructuralModelNodeResidue.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/StructuralModel/SBMStructuralModelNodeSideChain.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/StructuralModel/SBMStructuralModelPath.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/VisualModel/SBMVisualModel.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/VisualModel/SBMVisualModelEvent.hpp
@@ -425,7 +443,9 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerApp.cpp.o
  /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include/SEProteinScannerApp.hpp
  /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include/SEProteinScannerAppGUI.hpp
  /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include/SEProteinScannerGrid.hpp
+ /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include/SEProteinScannerGridBoolean.hpp
  /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/source/SEProteinScannerApp.cpp
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/QDirIterator
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/QSettings
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/QString
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/QVariant
@@ -450,6 +470,7 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerApp.cpp.o
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qdatastream.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qdebug.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qdir.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qdiriterator.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qeventloop.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qfile.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qfiledevice.h
@@ -524,12 +545,16 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerApp.cpp.o
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpaintdevice.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpainterpath.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpalette.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpen.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpixelformat.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpixmap.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpolygon.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qregion.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qrgb.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qrgba64.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtextcursor.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtextformat.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtextoption.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtgui-config.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtguiglobal.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtouchdevice.h
@@ -542,12 +567,19 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerApp.cpp.o
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QApplication
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QButtonGroup
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QDialogButtonBox
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QDoubleSpinBox
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QFileDialog
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QFormLayout
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QHeaderView
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QLabel
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QLayout
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QLineEdit
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QPushButton
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QSpinBox
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QVBoxLayout
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QWidget
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QWidgetAction
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qabstractbutton.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qabstractitemdelegate.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qabstractitemview.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qabstractscrollarea.h
@@ -562,15 +594,19 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerApp.cpp.o
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qdialog.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qdialogbuttonbox.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qfiledialog.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qformlayout.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qframe.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qgridlayout.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qheaderview.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qlabel.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qlayout.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qlayoutitem.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qlineedit.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qpushbutton.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qrubberband.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qsizepolicy.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qslider.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qspinbox.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qstyle.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qstyleoption.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qtabbar.h
@@ -825,6 +861,7 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerAppGUI.cpp
  /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include/SEProteinScannerApp.hpp
  /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include/SEProteinScannerAppGUI.hpp
  /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include/SEProteinScannerGrid.hpp
+ /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include/SEProteinScannerGridBoolean.hpp
  /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/source/SEProteinScannerAppGUI.cpp
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/QSettings
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/QString
@@ -924,12 +961,16 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerAppGUI.cpp
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpaintdevice.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpainterpath.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpalette.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpen.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpixelformat.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpixmap.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpolygon.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qregion.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qrgb.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qrgba64.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtextcursor.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtextformat.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtextoption.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtgui-config.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtguiglobal.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtouchdevice.h
@@ -942,12 +983,19 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerAppGUI.cpp
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QApplication
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QButtonGroup
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QDialogButtonBox
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QDoubleSpinBox
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QFileDialog
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QFormLayout
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QHeaderView
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QLabel
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QLayout
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QLineEdit
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QPushButton
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QSpinBox
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QVBoxLayout
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QWidget
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QWidgetAction
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qabstractbutton.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qabstractitemdelegate.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qabstractitemview.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qabstractscrollarea.h
@@ -962,15 +1010,19 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerAppGUI.cpp
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qdialog.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qdialogbuttonbox.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qfiledialog.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qformlayout.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qframe.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qgridlayout.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qheaderview.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qlabel.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qlayout.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qlayoutitem.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qlineedit.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qpushbutton.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qrubberband.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qsizepolicy.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qslider.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qspinbox.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qstyle.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qstyleoption.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qtabbar.h
@@ -1112,8 +1164,15 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerDescriptor
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Quantity/SBDQuantityUnitType.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type/SBDTypeConstant.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type/SBDTypeExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type/SBDTypePhysicalIAVector3.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type/SBDTypePhysicalInterval.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type/SBDTypePhysicalMatrix33.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type/SBDTypePhysicalMatrix66.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type/SBDTypePhysicalVector3.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type/SBDTypePhysicalVector6.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type/SBDTypeSpatialTransform.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type/SBDTypeSymmetryTransform.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBIAVector3.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBMatrix33.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBNodeIndexer.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBPointer.hpp
@@ -1148,6 +1207,7 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerDescriptor
  /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include/SEProteinScannerAppDescriptor.hpp
  /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include/SEProteinScannerAppGUI.hpp
  /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include/SEProteinScannerGrid.hpp
+ /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include/SEProteinScannerGridBoolean.hpp
  /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/source/SEProteinScannerDescriptor.cpp
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/QSettings
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/QString
@@ -1243,12 +1303,16 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerDescriptor
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpaintdevice.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpainterpath.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpalette.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpen.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpixelformat.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpixmap.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpolygon.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qregion.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qrgb.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qrgba64.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtextcursor.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtextformat.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtextoption.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtgui-config.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtguiglobal.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtouchdevice.h
@@ -1260,10 +1324,17 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerDescriptor
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QAction
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QApplication
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QButtonGroup
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QDoubleSpinBox
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QFormLayout
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QHeaderView
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QLabel
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QLayout
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QLineEdit
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QPushButton
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QSpinBox
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QVBoxLayout
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QWidget
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qabstractbutton.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qabstractitemdelegate.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qabstractitemview.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qabstractscrollarea.h
@@ -1275,15 +1346,19 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerDescriptor
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qboxlayout.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qbuttongroup.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qdesktopwidget.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qformlayout.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qframe.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qgridlayout.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qheaderview.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qlabel.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qlayout.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qlayoutitem.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qlineedit.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qpushbutton.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qrubberband.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qsizepolicy.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qslider.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qspinbox.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qstyle.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qstyleoption.h
  /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qtabbar.h
@@ -1294,8 +1369,17 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerDescriptor
  ProteinScanner/ui_SEProteinScannerAppGUI.h
 ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.o
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Class/SBCClass.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Class/SBCClassAttribute.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Class/SBCClassConstFunction.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Class/SBCClassConstructor.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Class/SBCClassExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Class/SBCClassFactory.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Class/SBCClassFunction.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Class/SBCClassInterface.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Class/SBCClassMacros.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Class/SBCClassProxy.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Class/SBCClassStaticFunction.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Container/SBCContainerBuffer.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Container/SBCContainerExport.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Container/SBCContainerFor.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Container/SBCContainerHashMap.hpp
@@ -1379,17 +1463,32 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.o
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Signal/SBCSignalExport.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Signal/SBCSignalN.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Time/SBCTimeClock.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Undo/SBCUndoCommand.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Undo/SBCUndoExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/App/SBDApp.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/App/SBDAppExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Color/SBDColor.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Color/SBDColorExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Controller/SBDController.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Controller/SBDControllerEvent.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Controller/SBDControllerExport.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/DataGraph/SBDDataGraphBaseEvent.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/DataGraph/SBDDataGraphEvent.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/DataGraph/SBDDataGraphExport.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/DataGraph/SBDDataGraphNode.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/DataGraph/SBDDataGraphNodeColorScheme.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/DataGraph/SBDDataGraphNodeGetter.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/DataGraph/SBDDataGraphNodeGroup.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/DataGraph/SBDDataGraphNodeIndexer.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/DataGraph/SBDDataGraphNodeMaterial.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/DataGraph/SBDDataGraphNodePredicate.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/DataGraph/SBDDataGraphNodeVisitor.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Document/SBDDocument.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Document/SBDDocumentCamera.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Document/SBDDocumentEvent.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Document/SBDDocumentExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Document/SBDDocumentLabel.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Document/SBDDocumentLayer.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Quantity/SBDQuantity.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Quantity/SBDQuantityAU.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Quantity/SBDQuantityConverter.hpp
@@ -1414,20 +1513,75 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.o
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Quantity/SBDQuantityUnitType.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type/SBDTypeConstant.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type/SBDTypeExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type/SBDTypePhysicalIAVector3.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type/SBDTypePhysicalInterval.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type/SBDTypePhysicalMatrix33.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type/SBDTypePhysicalMatrix66.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type/SBDTypePhysicalVector3.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type/SBDTypePhysicalVector6.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type/SBDTypeSpatialTransform.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/DataModel/Type/SBDTypeSymmetryTransform.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SAMSON.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SAMSONExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBAction.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBActionWidget.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBAtom.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBBuffer.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBDynamicalEvent.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBIAVector3.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBInteractionEvent.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBMatrix33.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBNode.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBNodeGroup.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBNodeIndexer.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBParticleSystem.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBPointer.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBPointerIndexer.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBPointerList.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBPointerTarget.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBProxy.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBResidue.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBSimulatorEvent.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBSimulatorParticleSystem.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBUUID.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBValue.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBValueHolder.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBVector3.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBVersionNumber.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Facade/SAMSON/SBVisualModel.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Action/SBGAction.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Action/SBGActionExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Action/SBGActionWidget.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Editor/SBGEditor.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Editor/SBGEditorExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Settings/SBGSettings.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Settings/SBGSettingsExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Window/SBGWindow.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Window/SBGWindowExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/GUI/Window/SBGWindowWidget.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/IO/File/SBIFileExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/IO/File/SBIFileExporter.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/IO/File/SBIFileImporter.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/DynamicalModel/SBMDynamicalModel.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/DynamicalModel/SBMDynamicalModelEvent.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/DynamicalModel/SBMDynamicalModelExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/DynamicalModel/SBMDynamicalModelNode.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/DynamicalModel/SBMDynamicalModelNodeParticle.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/DynamicalModel/SBMDynamicalModelParticleSystem.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/Element/SBMElement.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/Element/SBMElementExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/InteractionModel/SBMInteractionModel.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/InteractionModel/SBMInteractionModelEvent.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/InteractionModel/SBMInteractionModelExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/InteractionModel/SBMInteractionModelParticleSystem.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/Model/SBMModel.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/Model/SBMModelExport.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/Model/SBMModelNode.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/PropertyModel/SBMPropertyModel.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/PropertyModel/SBMPropertyModelEvent.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/PropertyModel/SBMPropertyModelExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/StructuralModel/SBMStructuralModel.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/StructuralModel/SBMStructuralModelConformation.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/StructuralModel/SBMStructuralModelEvent.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/StructuralModel/SBMStructuralModelExport.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/StructuralModel/SBMStructuralModelNode.hpp
@@ -1436,7 +1590,143 @@ ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGrid.cpp.o
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/StructuralModel/SBMStructuralModelNodeGroup.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/StructuralModel/SBMStructuralModelNodeParticle.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/StructuralModel/SBMStructuralModelNodeResidue.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/StructuralModel/SBMStructuralModelPath.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/VisualModel/SBMVisualModel.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/VisualModel/SBMVisualModelEvent.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Modeling/VisualModel/SBMVisualModelExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/NeighborSearch/SBSNeighborSearch.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/NeighborSearch/SBSNeighborSearchExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/NeighborSearch/SBSNeighborSearchParticleSystem.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/Simulator/SBSSimulator.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/Simulator/SBSSimulatorEvent.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/Simulator/SBSSimulatorExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/Simulator/SBSSimulatorParticleSystem.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/StateUpdater/SBSStateUpdater.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/StateUpdater/SBSStateUpdaterArticulatedBodySystem.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/StateUpdater/SBSStateUpdaterEvent.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/StateUpdater/SBSStateUpdaterExport.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/StateUpdater/SBSStateUpdaterParticleSystem.hpp
+ /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Simulation/StateUpdater/SBSStateUpdaterRigidBodySystem.hpp
+ /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/include/SEProteinScannerGrid.hpp
  /users/misc-b/INF473/johanna.jussey/Projets/INF473-x16/Elements/ProteinScanner/source/SEProteinScannerGrid.cpp
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/QSettings
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/QString
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qalgorithms.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qarraydata.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qatomic.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qatomic_bootstrap.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qatomic_cxx11.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qatomic_msvc.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qbasicatomic.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qbytearray.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qbytearraylist.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qchar.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qcompilerdetection.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qconfig-bootstrapped.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qconfig.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qcontainerfwd.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qcontiguouscache.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qcoreevent.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qdatastream.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qdebug.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qdir.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qfile.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qfiledevice.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qfileinfo.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qflags.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qgenericatomic.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qglobal.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qglobalstatic.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qhash.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qhashfunctions.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qiodevice.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qiterator.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qline.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qlist.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qlocale.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qlogging.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qmap.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qmargins.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qmetatype.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qmutex.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qnamespace.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qnumeric.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qobject.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qobject_impl.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qobjectdefs.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qobjectdefs_impl.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qpair.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qpoint.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qprocessordetection.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qrect.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qrefcount.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qregexp.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qscopedpointer.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qset.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qsettings.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qshareddata.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qsharedpointer.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qsharedpointer_impl.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qsize.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qstring.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qstringbuilder.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qstringlist.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qstringmatcher.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qsysinfo.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qsystemdetection.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qtcore-config.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qtextstream.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qtypeinfo.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qurl.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qurlquery.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qvariant.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qvarlengtharray.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qvector.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtCore/qversiontagging.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/QKeyEvent
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/QMouseEvent
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qbrush.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qcolor.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qcursor.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qevent.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qfont.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qfontinfo.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qfontmetrics.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qicon.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qimage.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qkeysequence.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qmatrix.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpaintdevice.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpainterpath.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpalette.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpixelformat.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpixmap.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qpolygon.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qregion.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qrgb.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qrgba64.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtgui-config.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtguiglobal.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtouchdevice.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qtransform.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qvector2d.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qwindowdefs.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtGui/qwindowdefs_win.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QAction
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QDialogButtonBox
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QFileDialog
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QWidget
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/QWidgetAction
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qaction.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qactiongroup.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qdialog.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qdialogbuttonbox.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qfiledialog.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qsizepolicy.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qtwidgets-config.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qtwidgetsglobal.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qwidget.h
+ /users/misc-b/INF473/johanna.jussey/Qt/5.9.3/gcc_64/include/QtWidgets/qwidgetaction.h
 ProteinScanner/CMakeFiles/SEProteinScanner.dir/source/SEProteinScannerGridBoolean.cpp.o
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Class/SBCClass.hpp
  /users/misc-b/INF473/johanna.jussey/NANO-D/SDK/0.7.0/include/Core/Class/SBCClassAttribute.hpp

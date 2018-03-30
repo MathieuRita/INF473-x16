@@ -21,10 +21,7 @@ SEColorizerApp::~SEColorizerApp() {
 
 SEColorizerAppGUI* SEColorizerApp::getGUI() const { return static_cast<SEColorizerAppGUI*>(SBDApp::getGUI()); }
 
-void SEColorizerApp::colorize(){
-
-    QString title = "Enter the path leading to the grid of proximity";
-    QString gridPath = QFileDialog::getOpenFileName(0, title);
+void SEColorizerApp::colorize(const QString& gridPath){
 
 #if 1
     // creer le color scheme

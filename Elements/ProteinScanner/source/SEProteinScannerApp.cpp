@@ -30,33 +30,34 @@ SEProteinScannerAppGUI* SEProteinScannerApp::getGUI() const { return static_cast
 
 SBIAPosition3* SEProteinScannerApp::gridsize() const {
 
-    SBIAPosition3* minmax = new SBIAPosition3;
+	SBIAPosition3* minmax = new SBIAPosition3;
 
 	SBNodeIndexer nodeIndexer;
 	SAMSON::getActiveDocument()->getNodes(nodeIndexer, SBNode::IsType(SBNode::Atom));
 
-    if (nodeIndexer.empty()) {
-        return minmax; }
+	if (nodeIndexer.empty()) {
+		return minmax;
+	}
 
 
 	SBAtom* atom = static_cast<SBAtom*>(nodeIndexer[0]);
-    *minmax=atom->getPosition();
+	*minmax = atom->getPosition();
 
 
 	SB_FOR(SBNode* node, nodeIndexer) {
 
 		SBAtom* atom = static_cast<SBAtom*>(node);
-        minmax->bound(atom->getPosition());
+		minmax->bound(atom->getPosition());
 
 	}
-    return minmax;
+	return minmax;
 
 }
 
 
-SEProteinScannerGrid* SEProteinScannerApp::gridfill(SBIAPosition3& minmax,SBQuantity::length voxsize, int winsize) const{
+SEProteinScannerGrid* SEProteinScannerApp::gridfill(SBIAPosition3& minmax, SBQuantity::length voxsize, int winsize) const {
 
-	SEProteinScannerGrid* grid= new SEProteinScannerGrid(minmax, voxsize, winsize);
+	SEProteinScannerGrid* grid = new SEProteinScannerGrid(minmax, voxsize, winsize);
 
 	SBNodeIndexer resIndexer;
 	SAMSON::getActiveDocument()->getNodes(resIndexer, SBNode::IsType(SBNode::Residue));
@@ -64,19 +65,19 @@ SEProteinScannerGrid* SEProteinScannerApp::gridfill(SBIAPosition3& minmax,SBQuan
 	SB_FOR(SBNode* node, resIndexer) {
 
 		SBResidue* resi = static_cast<SBResidue*>(node);
-        SBResidue::ResidueType res = resi->getResidueType();
+		SBResidue::ResidueType res = resi->getResidueType();
 
 		SBNodeIndexer atIndexer;
-        //if (resi->getSideChain()) resi->getSideChain()->getNodes(atIndexer, SBNode::IsType(SBNode::Atom));
-        resi->getNodes(atIndexer, SBNode::IsType(SBNode::Atom));
+		//if (resi->getSideChain()) resi->getSideChain()->getNodes(atIndexer, SBNode::IsType(SBNode::Atom));
+		resi->getNodes(atIndexer, SBNode::IsType(SBNode::Atom));
 
 		SBQuantity::length xmid(0);
 		SBQuantity::length ymid(0);
 		SBQuantity::length zmid(0);
-		int count=0;
+		int count = 0;
 
 		SB_FOR(SBNode* nodde, atIndexer) {
-            count++;
+			count++;
 			SBAtom* atom = static_cast<SBAtom*>(nodde);
 			SBPosition3 position = atom->getPosition();
 			xmid += position.v[0];
@@ -85,15 +86,15 @@ SEProteinScannerGrid* SEProteinScannerApp::gridfill(SBIAPosition3& minmax,SBQuan
 		}
 		SBPosition3 origin = grid->getOrigin();
 
-        int ixmid=(int)((xmid/count-origin[0])/voxsize).getValue();
-        int iymid=(int)((ymid/count-origin[1])/voxsize).getValue();
-        int izmid=(int)((zmid/count-origin[2])/voxsize).getValue();
+		int ixmid = (int)((xmid / count - origin[0]) / voxsize).getValue();
+		int iymid = (int)((ymid / count - origin[1]) / voxsize).getValue();
+		int izmid = (int)((zmid / count - origin[2]) / voxsize).getValue();
 
-        if  (ixmid>=grid->nx) {ixmid=grid->nx-1 ;}
-        if  (iymid>=grid->ny) {iymid=grid->ny-1 ;}
-        if  (izmid>=grid->nz) {izmid=grid->nz-1 ;}
+		if (ixmid >= grid->nx) { ixmid = grid->nx - 1; }
+		if (iymid >= grid->ny) { iymid = grid->ny - 1; }
+		if (izmid >= grid->nz) { izmid = grid->nz - 1; }
 
-        grid->setRes(ixmid,iymid,izmid,res);
+		grid->setRes(ixmid, iymid, izmid, res);
 
 	}
 
@@ -102,16 +103,16 @@ SEProteinScannerGrid* SEProteinScannerApp::gridfill(SBIAPosition3& minmax,SBQuan
 }
 
 
-bool SEProteinScannerApp::Scan(SBQuantity::length x,SBQuantity::length y, SBQuantity::length z,SBQuantity::length distcont,SBNodeIndexer ligandAtomIndexer) const{
+bool SEProteinScannerApp::Scan(SBQuantity::length x, SBQuantity::length y, SBQuantity::length z, SBQuantity::length distcont, SBNodeIndexer ligandAtomIndexer) const {
 	SBPosition3 centre;
-	centre[0]=x;
-	centre[1]=y;
-	centre[2]=z;
+	centre[0] = x;
+	centre[1] = y;
+	centre[2] = z;
 	SB_FOR(SBNode* lig, ligandAtomIndexer) {
 		SBAtom* atomlig = static_cast<SBAtom*>(lig);
 		SBPosition3 poslig = atomlig->getPosition();
-		SBQuantity::length dif = (poslig-centre).norm();
-		if (dif<=distcont){
+		SBQuantity::length dif = (poslig - centre).norm();
+		if (dif <= distcont) {
 			return true;
 		}
 	}
@@ -119,17 +120,17 @@ bool SEProteinScannerApp::Scan(SBQuantity::length x,SBQuantity::length y, SBQuan
 
 }
 
-SEProteinScannerGridBoolean*  SEProteinScannerApp::GridBoolFill(SBNodeIndexer ligandAtomIndexer,SBQuantity::length distcont,SBIAPosition3& minmax,SBQuantity::length voxsize,int winsize) const{
-	SEProteinScannerGridBoolean* gridb= new SEProteinScannerGridBoolean(minmax, voxsize, winsize);
-	int nx = (int)((minmax.i[0].i[1]+2*winsize*voxsize-minmax.i[0].i[0])/voxsize).getValue();
-	int ny = (int)((minmax.i[1].i[1]+2*winsize*voxsize-minmax.i[1].i[0])/voxsize).getValue();
-	int nz = (int)((minmax.i[2].i[1]+2*winsize*voxsize-minmax.i[2].i[0])/voxsize).getValue();
+SEProteinScannerGridBoolean*  SEProteinScannerApp::GridBoolFill(SBNodeIndexer ligandAtomIndexer, SBQuantity::length distcont, SBIAPosition3& minmax, SBQuantity::length voxsize, int winsize) const {
+	SEProteinScannerGridBoolean* gridb = new SEProteinScannerGridBoolean(minmax, voxsize, winsize);
+	int nx = (int)((minmax.i[0].i[1] + 2 * winsize*voxsize - minmax.i[0].i[0]) / voxsize).getValue();
+	int ny = (int)((minmax.i[1].i[1] + 2 * winsize*voxsize - minmax.i[1].i[0]) / voxsize).getValue();
+	int nz = (int)((minmax.i[2].i[1] + 2 * winsize*voxsize - minmax.i[2].i[0]) / voxsize).getValue();
 	SBPosition3 origin = gridb->getOrigin();
-	for (int ix= winsize; ix<nx-winsize;ix++){
-		for (int iy= winsize; iy<ny-winsize;iy++){
-			for (int iz= winsize; iz<nz-winsize;iz++){
-				if(SEProteinScannerApp::Scan(origin[0]+ix*voxsize,origin[1]+iy*voxsize,origin[2]+iz*voxsize,distcont,ligandAtomIndexer)){
-					gridb->setBoolean(ix,iy,iz,true);
+	for (int ix = winsize; ix < nx - winsize; ix++) {
+		for (int iy = winsize; iy < ny - winsize; iy++) {
+			for (int iz = winsize; iz < nz - winsize; iz++) {
+				if (SEProteinScannerApp::Scan(origin[0] + ix*voxsize, origin[1] + iy*voxsize, origin[2] + iz*voxsize, distcont, ligandAtomIndexer)) {
+					gridb->setBoolean(ix, iy, iz, true);
 				}
 			}
 		}
@@ -139,146 +140,176 @@ SEProteinScannerGridBoolean*  SEProteinScannerApp::GridBoolFill(SBNodeIndexer li
 
 }
 
-void  SEProteinScannerApp::compute(SBQuantity::length distcont,SBQuantity::length voxsize,int winsize, const QString& path) const{
+void  SEProteinScannerApp::compute(SBQuantity::length distcont, SBQuantity::length voxsize, int winsize, const QString& path) const {
 
-    ofstream fichier("/users/misc-b/INF473/jacques.boitreaud/testprotein.txt");
+	ofstream fichier("C:\\Stephane\\Programmation\\Git\\DeepSite\\Data\\training\\training.txt", std::ofstream::out);
 
-    fichier<<winsize<<endl;
-    fichier<<voxsize.getValue()<<endl;
+	//fichier<<winsize<<endl;
+	//fichier<<voxsize.getValue()<<endl;
 
-    QDirIterator itC(path, QStringList() << "*.pdb", QDir::Files, QDirIterator::Subdirectories);
-    unsigned int numberOfPDBFiles = 0;
+	QDirIterator itC(path, QStringList() << "*.pdb", QDir::Files, QDirIterator::Subdirectories);
+	unsigned int numberOfPDBFiles = 0;
 
-    while (itC.hasNext()) {
-        numberOfPDBFiles++;
-        itC.next();
-    }
+	while (itC.hasNext()) {
+		numberOfPDBFiles++;
+		itC.next();
+	}
 
-    fichier<<numberOfPDBFiles<<endl;
+	//fichier<<numberOfPDBFiles<<endl;
 
-    QDirIterator it(path, QStringList() << "*.pdb", QDir::Files, QDirIterator::Subdirectories);
+	// write header
 
-    while (it.hasNext()) {
+	for (int jx = -winsize; jx <= winsize; jx++) {
 
-        QString proteinPath = it.next();
+		for (int jy = -winsize; jy <= winsize; jy++) {
 
-        // load protein
+			for (int jz = -winsize; jz <= winsize; jz++) {
 
-        SBList<std::string> parameters;
-        parameters.push_back("1");
-        parameters.push_back("0");
-        parameters.push_back("0");
-        parameters.push_back("1");
-        parameters.push_back("1");
-        parameters.push_back("0");
-        parameters.push_back("1");
+				if (jx < 0) fichier << "m";
+				else fichier << "p";
+				fichier << abs(jx);
 
-        SAMSON::importFromFile(proteinPath.toStdString(), &parameters);
+				if (jy < 0) fichier << "m";
+				else fichier << "p";
+				fichier << abs(jy);
 
-        // scan protein
+				if (jz < 0) fichier << "m";
+				else fichier << "p";
+				fichier << abs(jz);
 
-        SBIAPosition3 minmax = *gridsize();
-        SEProteinScannerGrid* grid = gridfill(minmax,voxsize,winsize);
+				fichier << "\t";
 
-        SBNodeIndexer ligandAtomIndexer;
-        SBNodePredicate* ligandPredicate = SAMSON::makeNodePredicate("a.het and not (n.t a and not (n.t a l n.t a)) and not a.w ");
-        SAMSON::getActiveDocument()->getNodes(ligandAtomIndexer, *ligandPredicate);
+			}
 
-        SEProteinScannerGridBoolean* gridbool = GridBoolFill(ligandAtomIndexer,distcont, minmax, voxsize, winsize);
+		}
 
-        fichier<<(grid->nx-2*winsize)*(grid->ny-2*winsize)*(grid->nz-2*winsize)<<endl;
+	}
 
-        // for each sliding window
+	fichier << "C" << std::endl;
 
-        for (int ix= winsize; ix<grid->nx-winsize;ix++){
+	QDirIterator it(path, QStringList() << "*.pdb", QDir::Files, QDirIterator::Subdirectories);
 
-            for (int iy= winsize; iy<grid->ny-winsize;iy++){
+	while (it.hasNext()) {
 
-                for (int iz= winsize; iz<grid->nz-winsize;iz++){
+		QString proteinPath = it.next();
 
-                    // for the sliding window
+		// load protein
 
-                    for (int jx= ix-winsize; jx<=ix+winsize;jx++){
+		SBList<std::string> parameters;
+		parameters.push_back("1");
+		parameters.push_back("0");
+		parameters.push_back("0");
+		parameters.push_back("1");
+		parameters.push_back("1");
+		parameters.push_back("0");
+		parameters.push_back("1");
 
-                        for (int jy= iy-winsize; jy<=iy+winsize;jy++){
+		SAMSON::importFromFile(proteinPath.toStdString(), &parameters);
 
-                            for (int jz= iz-winsize; jz<=iz+winsize;jz++){
+		// scan protein
 
-                                fichier<<grid->getRes(jx,jy,jz)<<"\t";
+		SBIAPosition3 minmax = *gridsize();
+		SEProteinScannerGrid* grid = gridfill(minmax, voxsize, winsize);
 
-                            }
+		SBNodeIndexer ligandAtomIndexer;
+		SBNodePredicate* ligandPredicate = SAMSON::makeNodePredicate("a.het and not (n.t a and not (n.t a l n.t a)) and not a.w ");
+		SAMSON::getActiveDocument()->getNodes(ligandAtomIndexer, *ligandPredicate);
 
-                        }
+		SEProteinScannerGridBoolean* gridbool = GridBoolFill(ligandAtomIndexer, distcont, minmax, voxsize, winsize);
 
-                    }
+		//fichier<<(grid->nx-2*winsize)*(grid->ny-2*winsize)*(grid->nz-2*winsize)<<endl;
 
-                    fichier<<gridbool->getBoolean(ix,iy,iz)<<endl;
+		// for each sliding window
 
-                }
+		for (int ix = winsize; ix < grid->nx - winsize; ix++) {
 
-            }
+			for (int iy = winsize; iy < grid->ny - winsize; iy++) {
 
-        }
+				for (int iz = winsize; iz < grid->nz - winsize; iz++) {
 
-        // clean
+					// for the sliding window
 
-        delete grid;
-        delete gridbool;
+					for (int jx = ix - winsize; jx <= ix + winsize; jx++) {
 
-        SAMSON::undo(); // undo import
+						for (int jy = iy - winsize; jy <= iy + winsize; jy++) {
 
-    }
+							for (int jz = iz - winsize; jz <= iz + winsize; jz++) {
 
-    fichier.close();
+								fichier << grid->getRes(jx, jy, jz) << "\t";
+
+							}
+
+						}
+
+					}
+
+					fichier << gridbool->getBoolean(ix, iy, iz) << endl;
+
+				}
+
+			}
+
+		}
+
+		// clean
+
+		delete grid;
+		delete gridbool;
+
+		SAMSON::undo(); // undo import
+
+	}
+
+	fichier.close();
 
 }
 
-void  SEProteinScannerApp::predict(SBQuantity::length voxsize,int winsize) const{
-    ofstream fichier("/users/misc-b/INF473/jacques.boitreaud/predictprotein.txt");
+void  SEProteinScannerApp::predict(SBQuantity::length voxsize, int winsize) const {
+	ofstream fichier("/users/misc-b/INF473/jacques.boitreaud/predictprotein.txt");
 
-    fichier<<winsize<<endl;
-    fichier<<voxsize.getValue()<<endl;
-    SBIAPosition3 minmax = *gridsize();
-    SEProteinScannerGrid* grid = gridfill(minmax,voxsize,winsize);
+	fichier << winsize << endl;
+	fichier << voxsize.getValue() << endl;
+	SBIAPosition3 minmax = *gridsize();
+	SEProteinScannerGrid* grid = gridfill(minmax, voxsize, winsize);
 
-    SBPosition3 origin=grid->getOrigin();
-    fichier<<origin[0].getValue()<<endl;
-    fichier<<origin[1].getValue()<<endl;
-    fichier<<origin[2].getValue()<<endl;
-    fichier<<grid->nx<<endl;
-    fichier<<grid->ny<<endl;
-    fichier<<grid->nz<<endl;
-    fichier<<(grid->nx-2*winsize)*(grid->ny-2*winsize)*(grid->nz-2*winsize)<<endl;
+	SBPosition3 origin = grid->getOrigin();
+	fichier << origin[0].getValue() << endl;
+	fichier << origin[1].getValue() << endl;
+	fichier << origin[2].getValue() << endl;
+	fichier << grid->nx << endl;
+	fichier << grid->ny << endl;
+	fichier << grid->nz << endl;
+	fichier << (grid->nx - 2 * winsize)*(grid->ny - 2 * winsize)*(grid->nz - 2 * winsize) << endl;
 
-    for (int ix= winsize; ix<grid->nx-winsize;ix++){
+	for (int ix = winsize; ix < grid->nx - winsize; ix++) {
 
-        for (int iy= winsize; iy<grid->ny-winsize;iy++){
+		for (int iy = winsize; iy < grid->ny - winsize; iy++) {
 
-            for (int iz= winsize; iz<grid->nz-winsize;iz++){
+			for (int iz = winsize; iz < grid->nz - winsize; iz++) {
 
-                // for the sliding window
+				// for the sliding window
 
-                for (int jx= ix-winsize; jx<=ix+winsize;jx++){
+				for (int jx = ix - winsize; jx <= ix + winsize; jx++) {
 
-                    for (int jy= iy-winsize; jy<=iy+winsize;jy++){
+					for (int jy = iy - winsize; jy <= iy + winsize; jy++) {
 
-                        for (int jz= iz-winsize; jz<=iz+winsize;jz++){
+						for (int jz = iz - winsize; jz <= iz + winsize; jz++) {
 
-                            fichier<<grid->getRes(jx,jy,jz)<<"\t";
+							fichier << grid->getRes(jx, jy, jz) << "\t";
 
-                        }
+						}
 
-                    }
+					}
 
-                }
+				}
 
-                fichier<<endl;
+				fichier << endl;
 
-            }
+			}
 
-        }
+		}
 
-    }
-    delete grid;
+	}
+	delete grid;
 
 }

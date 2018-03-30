@@ -135,6 +135,22 @@
     </hint>
    </hints>
   </connection>
+  <connection>
+   <sender>pushButtonBrowse</sender>
+   <signal>clicked()</signal>
+   <receiver>SEProteinScannerAppGUIClass</receiver>
+   <slot>onBrowse()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>25</x>
+     <y>27</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>4</x>
+     <y>45</y>
+    </hint>
+   </hints>
+  </connection>
  </connections>
  <slots>
   <slot>onScan()</slot>

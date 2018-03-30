@@ -45,6 +45,8 @@ public :
 
     void                                                            rotation(int axe,int nbrot) const ;
 
+    /* void                                                            predictdatabase(SBQuantity::length voxsize,int winsize) const{ */
+
 };
 
 

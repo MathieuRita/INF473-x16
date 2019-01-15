@@ -11,3 +11,7 @@ Repositories and files :
 - CNN.py : neural-network that calculates the predictions
 - predict***.txt : some predictions
 - Results : example of images that can be obtained with the predictions
+
+Result :
+
+https://www.linkedin.com/feed/update/urn:li:activity:6385496694305492992/

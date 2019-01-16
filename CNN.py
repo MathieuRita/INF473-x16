@@ -133,6 +133,11 @@ def cnn_model_fn(features, labels, mode):
     # 1st convolutional layer
     conv1 = tf.layers.conv3d(inputs=input_layer, filters=32, kernel_size=[2, 2, 2], padding="same", activation=tf.nn.relu)
     # kernel_size prend en args la taille x,y,z de la fenetre de convolution. Il faudra adapter a ce qu on a.
+    
+    print("Coucou")
+    conv1=tf.Print(conv1,
+                   [conv1],
+                   message="coucou")
 
     # 1st pooling layer
     pool1 = tf.layers.max_pooling3d(inputs=conv1, pool_size=[2,2,2], strides=2)
@@ -206,7 +211,7 @@ def training(train_data_load,train_labels_load) :
 
     #Training
     train_input_fn = tf.estimator.inputs.numpy_input_fn(x={"x": train_data},y=train_labels,batch_size=100,num_epochs=None,shuffle=True)
-    CNN_classifier.train(input_fn=train_input_fn,steps=2000, hooks=[logging_hook])
+    CNN_classifier.train(input_fn=train_input_fn,steps=2, hooks=[logging_hook])
     # train input configure l entrainement pour etre valable avec le .train de CNN_classifier. Le batch_size signifie que le modele va s entrainer sur des sous-echantillons de 100 exemples a chaque fois
     # regler le nombre de steps selon la precision d entrainement que l on veut avoir
 
@@ -304,7 +309,7 @@ def correction(pred):
 # pred=correction(pred)
 # evaluation(pred,predict_labels)
 
-
+training(train_data_load,train_labels_load)
 data,voxesize,ox,oy,oz,nx,ny,nz=generate_pred()
 predict_data=data
 predict=prediction()

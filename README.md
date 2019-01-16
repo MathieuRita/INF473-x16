@@ -9,6 +9,8 @@ Repositories and files :
 - datach.npy & label.npy : precomputed features gathered in numpy arrays
 - Elements : C++ files that compute the protein coefficients
 - CNN.py : neural-network that calculates the predictions
+- ML.py : data extraction from the output of the C++ files
+- test.py : testing file
 - predict***.txt : some predictions
 - Results : example of images that can be obtained with the predictions
 
